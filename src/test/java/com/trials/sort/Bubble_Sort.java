@@ -1,4 +1,4 @@
-package com.trials;
+package com.trials.sort;
 
 import java.util.Arrays;
 import java.util.Collections;
