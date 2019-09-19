@@ -5,8 +5,12 @@ import java.util.Collections;
 import java.util.List;
 
 public class Bubble_Sort {
+	
+	int dummy;
 
 	public static void main(String[] args) {
+		
+		System.out.println("Dummy int :- " + new Bubble_Sort().dummy);
 
 		int arr_1[] = { 0, 5, -6, 4, 3, -8, 1, 10, 7, 15, -2 };
 		bubble_sort_method(arr_1);
