@@ -1,0 +1,1236 @@
+{
+  "_object" : "/api/response",
+  "self" : "https://api.flexport.com/invoices?expand=shipments.booking.booking_line_items.purchase_order_line_item.purchase_order,shipments.ocean_shipment.containers.container_legs.leg,shipments.legs.shipment_leg.shipment_container_leg,shipments.legs.ocean_leg.container_legs.leg,shipments.legs.trucking_leg.container_legs.leg,shipments.legs.air_leg.container_legs.leg&f.name=FLEX-123456-1",
+  "version" : 2,
+  "data" : {
+    "_object" : "/api/collections/paginated",
+    "data" : [
+      {
+        "_object" : "/invoice",
+        "id" : "RZ0ef1O5SJCNXvC5oosiow",
+        "name" : "FLEX-123456-1",
+        "issued_at" : "2020-02-11T03:33:39.316Z",
+        "due_date" : "2020-03-11",
+        "total" : {
+          "_object" : "/money",
+          "amount" : "4495.85",
+          "currency_code" : "USD"
+        },
+        "balance" : {
+          "_object" : "/money",
+          "amount" : "4495.85",
+          "currency_code" : "USD"
+        },
+        "status" : "outstanding",
+        "type" : "Shipment",
+        "notes" : [
+          "**Containers** \n\n \n SEGU4836472 (Dry, 40 ft HC)",
+          "**Notes** \n\n"
+        ],
+        "recipient" : {
+          "_object" : "/company_entity",
+          "id" : 700500,
+          "name" : "America Corp.",
+          "mailing_address" : {
+            "_object" : "/address",
+            "street_address" : "5 WILLOWBROOK WAY",
+            "street_address2" : "",
+            "city" : "PARSIPPANY",
+            "state" : "NJ",
+            "country" : "United States",
+            "country_code" : "US",
+            "zip" : "07054-3818",
+            "timezone" : "America/New_York"
+          },
+          "ref" : "id-700500"
+        },
+        "issuer" : {
+          "_object" : "/company_entity",
+          "id" : 28714,
+          "name" : "Flexport LLC",
+          "mailing_address" : {
+            "_object" : "/address",
+            "street_address" : "760 MARKET ST FL 8",
+            "street_address2" : "",
+            "city" : "SAN FRANCISCO",
+            "state" : "CA",
+            "country" : "United States",
+            "country_code" : "US",
+            "zip" : "94102-2300",
+            "timezone" : "America/Los_Angeles"
+          },
+          "ref" : "id-28714"
+        },
+        "items" : [
+          {
+            "_object" : "/invoice_item",
+            "name" : "Chassis",
+            "slug" : "chassis",
+            "category" : "destination",
+            "amount" : {
+              "_object" : "/money",
+              "amount" : "108",
+              "currency_code" : "USD"
+            }
+          },
+          {
+            "_object" : "/invoice_item",
+            "name" : "Import Customs Clearance",
+            "slug" : "import_customs_clearance",
+            "category" : "customs",
+            "amount" : {
+              "_object" : "/money",
+              "amount" : "125",
+              "currency_code" : "USD"
+            },
+            "rate" : {
+              "_object" : "/invoice/rate",
+              "value" : "125.00",
+              "qualifier" : "USD"
+            },
+            "quantity" : {
+              "_object" : "/invoice/quantity",
+              "value" : "1",
+              "qualifier" : "total"
+            }
+          },
+          {
+            "_object" : "/invoice_item",
+            "name" : "FCL - 40' HQ Container",
+            "slug" : "fcl_40_hq_container",
+            "category" : "freight",
+            "amount" : {
+              "_object" : "/money",
+              "amount" : "4015",
+              "currency_code" : "USD"
+            },
+            "rate" : {
+              "_object" : "/invoice/rate",
+              "value" : "4015.00",
+              "qualifier" : "USD"
+            },
+            "quantity" : {
+              "_object" : "/invoice/quantity",
+              "value" : "1",
+              "qualifier" : "container"
+            }
+          },
+          {
+            "_object" : "/invoice_item",
+            "name" : "Automated Manifest System",
+            "slug" : "automated_manifest_system_freight",
+            "category" : "freight",
+            "amount" : {
+              "_object" : "/money",
+              "amount" : "35",
+              "currency_code" : "USD"
+            },
+            "rate" : {
+              "_object" : "/invoice/rate",
+              "value" : "35.00",
+              "qualifier" : "USD"
+            },
+            "quantity" : {
+              "_object" : "/invoice/quantity",
+              "value" : "1",
+              "qualifier" : "total"
+            }
+          },
+          {
+            "_object" : "/invoice_item",
+            "name" : "Fuel Surcharge",
+            "slug" : "fuel_surcharge",
+            "category" : "destination",
+            "amount" : {
+              "_object" : "/money",
+              "amount" : "47.85",
+              "currency_code" : "USD"
+            },
+            "rate" : {
+              "_object" : "/invoice/rate",
+              "value" : "29",
+              "qualifier" : "% Drayage Base"
+            },
+            "quantity" : {
+              "_object" : "/invoice/quantity",
+              "value" : "165.00",
+              "qualifier" : "USD"
+            }
+          },
+          {
+            "_object" : "/invoice_item",
+            "name" : "Drayage Base",
+            "slug" : "drayage_base",
+            "category" : "destination",
+            "amount" : {
+              "_object" : "/money",
+              "amount" : "165",
+              "currency_code" : "USD"
+            },
+            "rate" : {
+              "_object" : "/invoice/rate",
+              "value" : "165.00",
+              "qualifier" : "USD"
+            },
+            "quantity" : {
+              "_object" : "/invoice/quantity",
+              "value" : "1",
+              "qualifier" : "container"
+            }
+          }
+        ],
+        "shipments" : {
+          "_object" : "/api/collections/paginated",
+          "data" : [
+            {
+              "metadata" : {
+                "product_division" : [
+                  "REF"
+                ]
+              },
+              "_object" : "/shipment",
+              "id" : 123456,
+              "name" : "COSTCO - BRL1932941\tKP191118000043\tDNL22201911160065",
+              "transportation_mode" : "ocean",
+              "freight_type" : "port_to_door",
+              "updated_at" : "2020-02-11T04:11:59.905Z",
+              "incoterm" : "FOB",
+              "calculated_weight" : {
+                "value" : 5773.48,
+                "unit" : "kg",
+                "_object" : "/quantity/weight"
+              },
+              "calculated_volume" : {
+                "value" : 72.68,
+                "unit" : "cbm",
+                "_object" : "/quantity/volume"
+              },
+              "departure_date" : "2019-12-29T12:00:00.000+08:00",
+              "estimated_departure_date" : "2019-12-26T12:00:00.000+08:00",
+              "actual_departure_date" : "2019-12-29T12:00:00.000+08:00",
+              "arrival_date" : "2020-02-02T08:12:00.000-07:00",
+              "estimated_arrival_date" : "2020-02-02T11:00:00.000-07:00",
+              "actual_arrival_date" : "2020-02-02T08:12:00.000-07:00",
+              "status" : "final_destination",
+              "pieces" : 0,
+              "picked_up_in_full_date" : "2019-12-23T12:00:00.000+08:00",
+              "estimated_picked_up_in_full_date" : "2019-12-24T12:00:00.000+08:00",
+              "actual_picked_up_in_full_date" : "2019-12-23T12:00:00.000+08:00",
+              "delivered_in_full_date" : "2020-02-07T12:00:00.000-07:00",
+              "estimated_delivered_in_full_date" : "2020-02-07T12:00:00.000-07:00",
+              "actual_delivered_in_full_date" : "2020-02-07T12:00:00.000-07:00",
+              "cargo_ready_date" : "2019-12-20",
+              "ocean_shipment" : {
+                "_object" : "/ocean/shipment",
+                "is_lcl" : "false",
+                "house_bill_number" : "DLHTSHSE1923441",
+                "master_bill_number" : "COSU6124992130",
+                "carrier_booking_number" : "COSU6124992130",
+                "containers" : {
+                  "_object" : "/api/collections/paginated",
+                  "total_count" : "1",
+                  "data" : [
+                    {
+                      "_object" : "/ocean/shipment_container",
+                      "id" : "326789",
+                      "container_type" : "dry",
+                      "container_number" : "SEGU4836472",
+                      "container_size" : "fourty_ft_hc",
+                      "seal_number" : "T080109",
+                      "estimated_departure_date" : "2019-12-26T12:00:00.000+08:00",
+                      "actual_departure_date" : "2019-12-29T12:00:00.000+08:00",
+                      "estimated_arrival_date" : "2020-02-02T11:00:00.000-07:00",
+                      "actual_arrival_date" : "2020-02-02T08:12:00.000-07:00",
+                      "estimated_pickup_date" : "2019-12-24T12:00:00.000+08:00",
+                      "actual_pickup_date" : "2019-12-23T12:00:00.000+08:00",
+                      "estimated_delivery_date" : "2020-02-07T12:00:00.000-07:00",
+                      "actual_delivery_date" : "2020-02-07T12:00:00.000-07:00",
+                      "last_free_day_date" : "2020-02-05T07:00:00.000Z",
+                      "empty_returned_date" : "2020-02-07",
+                      "cargo_ready_date" : "2019-12-20",
+                      "shipment" : {
+                        "_object" : "/api/refs/object",
+                        "ref_type" : "/shipment",
+                        "link" : "https://api.flexport.com/shipments/123456",
+                        "id" : "123456"
+                      },
+                      "container_legs" : {
+                        "_object" : "/api/collections/paginated",
+                        "data" : [
+                          {
+                            "_object" : "/ocean/shipment_container_leg",
+                            "id" : "1283993",
+                            "shipment_container" : {
+                              "_object" : "/api/refs/object",
+                              "ref_type" : "/ocean/shipment_container",
+                              "link" : "https://api.flexport.com/ocean/shipment_containers/326789",
+                              "id" : "326789"
+                            },
+                            "leg" : {
+                              "_object" : "/shipment_leg",
+                              "id" : "5984260",
+                              "shipment" : {
+                                "_object" : "/api/refs/object",
+                                "ref_type" : "/shipment",
+                                "link" : "https://api.flexport.com/shipments/123456",
+                                "id" : "123456"
+                              },
+                              "estimated_arrival_date" : "2019-12-24T12:00:00.000+08:00",
+                              "actual_arrival_date" : "2019-12-23T12:00:00.000+08:00",
+                              "estimated_departure_date" : "2019-12-24T12:00:00.000+08:00",
+                              "actual_departure_date" : "2019-12-23T12:00:00.000+08:00",
+                              "origin" : {
+                                "_object" : "/shipment_node",
+                                "tags" : [
+                                  "origin_address"
+                                ],
+                                "place" : {
+                                  "_object" : "/place",
+                                  "name" : "Hefei Co. Ltd",
+                                  "address" : {
+                                    "_object" : "/address",
+                                    "street_address" : "#176 JINXIU ROAD,HEFEI ECONOMY AND TECHNOLOGY DEVELOPMENT AREA",
+                                    "city" : "Hefei",
+                                    "state" : "Anhui",
+                                    "country" : "China",
+                                    "country_code" : "CN",
+                                    "zip" : "230601",
+                                    "timezone" : "Asia/Shanghai",
+                                    "ref" : "id-230309"
+                                  }
+                                }
+                              },
+                              "destination" : {
+                                "_object" : "/shipment_node",
+                                "place" : {
+                                  "_object" : "/place",
+                                  "name" : "Wuhu",
+                                  "address" : {
+                                    "_object" : "/address",
+                                    "city" : "Wuhu",
+                                    "country" : "China",
+                                    "country_code" : "CN",
+                                    "unlocode" : "CNWHI",
+                                    "timezone" : "Asia/Shanghai",
+                                    "ref" : "id-39047"
+                                  },
+                                  "details" : [
+                                    {
+                                      "_object" : "/trucking/port",
+                                      "port_code" : "57000"
+                                    },
+                                    {
+                                      "_object" : "/ocean/port",
+                                      "port_code" : "57000"
+                                    }
+                                  ]
+                                }
+                              },
+                              "transportation_mode" : "truck",
+                              "trucking_leg" : {
+                                "_object" : "/trucking/shipment_leg",
+                                "service_type" : "drayage",
+                                "container_legs" : {
+                                  "_object" : "/api/refs/collection",
+                                  "ref_type" : "/ocean/shipment_container_leg",
+                                  "link" : "https://api.flexport.com/ocean/shipment_container_legs?f.leg.id=5984260"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "_object" : "/ocean/shipment_container_leg",
+                            "id" : "1283994",
+                            "shipment_container" : {
+                              "_object" : "/api/refs/object",
+                              "ref_type" : "/ocean/shipment_container",
+                              "link" : "https://api.flexport.com/ocean/shipment_containers/326789",
+                              "id" : "326789"
+                            },
+                            "leg" : {
+                              "_object" : "/shipment_leg",
+                              "id" : "6204339",
+                              "shipment" : {
+                                "_object" : "/api/refs/object",
+                                "ref_type" : "/shipment",
+                                "link" : "https://api.flexport.com/shipments/123456",
+                                "id" : "123456"
+                              },
+                              "estimated_arrival_date" : "2020-01-04T12:00:00.000+08:00",
+                              "actual_arrival_date" : "2020-01-04T12:00:00.000+08:00",
+                              "estimated_departure_date" : "2019-12-26T12:00:00.000+08:00",
+                              "actual_departure_date" : "2019-12-29T12:00:00.000+08:00",
+                              "origin" : {
+                                "_object" : "/shipment_node",
+                                "place" : {
+                                  "_object" : "/place",
+                                  "name" : "Wuhu",
+                                  "address" : {
+                                    "_object" : "/address",
+                                    "city" : "Wuhu",
+                                    "country" : "China",
+                                    "country_code" : "CN",
+                                    "unlocode" : "CNWHI",
+                                    "timezone" : "Asia/Shanghai",
+                                    "ref" : "id-39047"
+                                  },
+                                  "details" : [
+                                    {
+                                      "_object" : "/trucking/port",
+                                      "port_code" : "57000"
+                                    },
+                                    {
+                                      "_object" : "/ocean/port",
+                                      "port_code" : "57000"
+                                    }
+                                  ]
+                                }
+                              },
+                              "destination" : {
+                                "_object" : "/shipment_node",
+                                "tags" : [
+                                  "port_of_loading"
+                                ],
+                                "place" : {
+                                  "_object" : "/place",
+                                  "name" : "Shanghai, China",
+                                  "address" : {
+                                    "_object" : "/address",
+                                    "city" : "Shanghai ",
+                                    "country" : "China",
+                                    "country_code" : "CN",
+                                    "unlocode" : "CNSHG",
+                                    "timezone" : "Asia/Shanghai",
+                                    "ref" : "id-39042"
+                                  },
+                                  "details" : [
+                                    {
+                                      "_object" : "/trucking/port",
+                                      "port_code" : "57035"
+                                    },
+                                    {
+                                      "_object" : "/ocean/port",
+                                      "port_code" : "57035"
+                                    }
+                                  ]
+                                }
+                              },
+                              "transportation_mode" : "ocean",
+                              "carrier_name" : "COSCO Container L.",
+                              "ocean_leg" : {
+                                "_object" : "/ocean/shipment_leg",
+                                "scac_code" : "COSU",
+                                "vessel_name" : "FAN YA TAI CANG",
+                                "voyage_number" : "L378E"
+                              }
+                            }
+                          },
+                          {
+                            "_object" : "/ocean/shipment_container_leg",
+                            "id" : "1283995",
+                            "dates" : {
+                              "actual_loaded_on_board_date" : "2020-01-04T19:00:00.000Z"
+                            },
+                            "shipment_container" : {
+                              "_object" : "/api/refs/object",
+                              "ref_type" : "/ocean/shipment_container",
+                              "link" : "https://api.flexport.com/ocean/shipment_containers/326789",
+                              "id" : "326789"
+                            },
+                            "leg" : {
+                              "_object" : "/shipment_leg",
+                              "id" : "6204340",
+                              "shipment" : {
+                                "_object" : "/api/refs/object",
+                                "ref_type" : "/shipment",
+                                "link" : "https://api.flexport.com/shipments/123456",
+                                "id" : "123456"
+                              },
+                              "estimated_arrival_date" : "2020-01-28T18:00:00.000-08:00",
+                              "actual_arrival_date" : "2020-01-28T12:00:00.000-08:00",
+                              "estimated_departure_date" : "2020-01-05T03:00:00.000+08:00",
+                              "actual_departure_date" : "2020-01-05T12:00:00.000+08:00",
+                              "origin" : {
+                                "_object" : "/shipment_node",
+                                "tags" : [
+                                  "port_of_loading"
+                                ],
+                                "place" : {
+                                  "_object" : "/place",
+                                  "name" : "Shanghai, China",
+                                  "address" : {
+                                    "_object" : "/address",
+                                    "city" : "Shanghai ",
+                                    "country" : "China",
+                                    "country_code" : "CN",
+                                    "unlocode" : "CNSHG",
+                                    "timezone" : "Asia/Shanghai",
+                                    "ref" : "id-39042"
+                                  },
+                                  "details" : [
+                                    {
+                                      "_object" : "/trucking/port",
+                                      "port_code" : "57035"
+                                    },
+                                    {
+                                      "_object" : "/ocean/port",
+                                      "port_code" : "57035"
+                                    }
+                                  ]
+                                }
+                              },
+                              "destination" : {
+                                "_object" : "/shipment_node",
+                                "tags" : [
+                                  "port_of_unloading",
+                                  "fmc_port_of_unloading"
+                                ],
+                                "place" : {
+                                  "_object" : "/place",
+                                  "name" : "Oakland, CA",
+                                  "address" : {
+                                    "_object" : "/address",
+                                    "city" : "Oakland",
+                                    "state" : "CA",
+                                    "country" : "United States",
+                                    "country_code" : "US",
+                                    "unlocode" : "USOAK",
+                                    "timezone" : "America/Los_Angeles",
+                                    "ref" : "id-41584"
+                                  },
+                                  "details" : [
+                                    {
+                                      "_object" : "/ocean/railport",
+                                      "port_code" : "2811"
+                                    },
+                                    {
+                                      "_object" : "/trucking/port",
+                                      "port_code" : "2811"
+                                    },
+                                    {
+                                      "_object" : "/ocean/port",
+                                      "port_code" : "2811"
+                                    }
+                                  ]
+                                }
+                              },
+                              "transportation_mode" : "ocean",
+                              "carrier_name" : "COSCO Container L.",
+                              "ocean_leg" : {
+                                "_object" : "/ocean/shipment_leg",
+                                "scac_code" : "COSU",
+                                "vessel_name" : "COSCO NETHERLANDS",
+                                "vessel_imo" : "9516430",
+                                "voyage_number" : "032E"
+                              }
+                            }
+                          },
+                          {
+                            "_object" : "/ocean/shipment_container_leg",
+                            "id" : "1283996",
+                            "dates" : {
+                              "actual_discharge_date" : "2020-02-03T01:13:00.000Z"
+                            },
+                            "shipment_container" : {
+                              "_object" : "/api/refs/object",
+                              "ref_type" : "/ocean/shipment_container",
+                              "link" : "https://api.flexport.com/ocean/shipment_containers/326789",
+                              "id" : "326789"
+                            },
+                            "leg" : {
+                              "_object" : "/shipment_leg",
+                              "id" : "6204341",
+                              "shipment" : {
+                                "_object" : "/api/refs/object",
+                                "ref_type" : "/shipment",
+                                "link" : "https://api.flexport.com/shipments/123456",
+                                "id" : "123456"
+                              },
+                              "estimated_arrival_date" : "2020-02-02T11:00:00.000-07:00",
+                              "actual_arrival_date" : "2020-02-02T08:12:00.000-07:00",
+                              "estimated_departure_date" : "2020-01-30T12:00:00.000-08:00",
+                              "actual_departure_date" : "2020-01-30T12:00:00.000-08:00",
+                              "origin" : {
+                                "_object" : "/shipment_node",
+                                "tags" : [
+                                  "port_of_unloading",
+                                  "fmc_port_of_unloading"
+                                ],
+                                "place" : {
+                                  "_object" : "/place",
+                                  "name" : "Oakland, CA",
+                                  "address" : {
+                                    "_object" : "/address",
+                                    "city" : "Oakland",
+                                    "state" : "CA",
+                                    "country" : "United States",
+                                    "country_code" : "US",
+                                    "unlocode" : "USOAK",
+                                    "timezone" : "America/Los_Angeles",
+                                    "ref" : "id-41584"
+                                  },
+                                  "details" : [
+                                    {
+                                      "_object" : "/ocean/railport",
+                                      "port_code" : "2811"
+                                    },
+                                    {
+                                      "_object" : "/trucking/port",
+                                      "port_code" : "2811"
+                                    },
+                                    {
+                                      "_object" : "/ocean/port",
+                                      "port_code" : "2811"
+                                    }
+                                  ]
+                                }
+                              },
+                              "destination" : {
+                                "_object" : "/shipment_node",
+                                "tags" : [
+                                  "customs_entry",
+                                  "place_of_delivery"
+                                ],
+                                "place" : {
+                                  "_object" : "/place",
+                                  "name" : "Salt Lake City, UT",
+                                  "address" : {
+                                    "_object" : "/address",
+                                    "city" : "Salt Lake City",
+                                    "state" : "UT",
+                                    "country" : "United States",
+                                    "country_code" : "US",
+                                    "unlocode" : "USSLC",
+                                    "timezone" : "America/Denver",
+                                    "ref" : "id-41671"
+                                  },
+                                  "details" : [
+                                    {
+                                      "_object" : "/ocean/railport",
+                                      "port_code" : "3303"
+                                    },
+                                    {
+                                      "_object" : "/trucking/port",
+                                      "port_code" : "3303"
+                                    }
+                                  ]
+                                }
+                              },
+                              "transportation_mode" : "rail",
+                              "carrier_name" : "COSCO Container L.",
+                              "rail_leg" : {
+                                "_object" : "/rail/shipment_leg",
+                                "container_legs" : {
+                                  "_object" : "/api/refs/collection",
+                                  "ref_type" : "/ocean/shipment_container_leg",
+                                  "link" : "https://api.flexport.com/ocean/shipment_container_legs?f.leg.id=6204341"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "_object" : "/ocean/shipment_container_leg",
+                            "id" : "1283997",
+                            "shipment_container" : {
+                              "_object" : "/api/refs/object",
+                              "ref_type" : "/ocean/shipment_container",
+                              "link" : "https://api.flexport.com/ocean/shipment_containers/326789",
+                              "id" : "326789"
+                            },
+                            "leg" : {
+                              "_object" : "/shipment_leg",
+                              "id" : "5984261",
+                              "shipment" : {
+                                "_object" : "/api/refs/object",
+                                "ref_type" : "/shipment",
+                                "link" : "https://api.flexport.com/shipments/123456",
+                                "id" : "123456"
+                              },
+                              "estimated_arrival_date" : "2020-02-07T12:00:00.000-07:00",
+                              "actual_arrival_date" : "2020-02-07T12:00:00.000-07:00",
+                              "estimated_departure_date" : "2020-02-04T12:00:00.000-07:00",
+                              "actual_departure_date" : "2020-02-04T16:26:00.000-07:00",
+                              "origin" : {
+                                "_object" : "/shipment_node",
+                                "tags" : [
+                                  "customs_entry",
+                                  "place_of_delivery"
+                                ],
+                                "place" : {
+                                  "_object" : "/place",
+                                  "name" : "Salt Lake City, UT",
+                                  "address" : {
+                                    "_object" : "/address",
+                                    "city" : "Salt Lake City",
+                                    "state" : "UT",
+                                    "country" : "United States",
+                                    "country_code" : "US",
+                                    "unlocode" : "USSLC",
+                                    "timezone" : "America/Denver",
+                                    "ref" : "id-41671"
+                                  },
+                                  "details" : [
+                                    {
+                                      "_object" : "/ocean/railport",
+                                      "port_code" : "3303"
+                                    },
+                                    {
+                                      "_object" : "/trucking/port",
+                                      "port_code" : "3303"
+                                    }
+                                  ]
+                                }
+                              },
+                              "destination" : {
+                                "_object" : "/shipment_node",
+                                "tags" : [
+                                  "destination_address"
+                                ],
+                                "place" : {
+                                  "_object" : "/place",
+                                  "name" : "COSTCO WHOLESALE DC 584",
+                                  "address" : {
+                                    "_object" : "/address",
+                                    "street_address" : "5995 W 300 South Street",
+                                    "city" : "Salt Lake City",
+                                    "state" : "Utah",
+                                    "country" : "United States",
+                                    "country_code" : "US",
+                                    "zip" : "84104",
+                                    "timezone" : "America/Denver",
+                                    "ref" : "id-273478"
+                                  }
+                                }
+                              },
+                              "transportation_mode" : "truck",
+                              "carrier_name" : "Specialized Rail Service",
+                              "trucking_leg" : {
+                                "_object" : "/trucking/shipment_leg",
+                                "service_type" : "drayage",
+                                "container_legs" : {
+                                  "_object" : "/api/refs/collection",
+                                  "ref_type" : "/ocean/shipment_container_leg",
+                                  "link" : "https://api.flexport.com/ocean/shipment_container_legs?f.leg.id=5984261"
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "items" : [
+                        {
+                          "_object" : "/shipment_item",
+                          "id" : "4363904",
+                          "total_units" : "166.0",
+                          "total_weight" : {
+                            "value" : "5773.48",
+                            "unit" : "kg",
+                            "_object" : "/quantity/weight"
+                          },
+                          "total_volume" : {
+                            "value" : "72.68",
+                            "unit" : "cbm",
+                            "_object" : "/quantity/volume"
+                          },
+                          "purchase_order_number" : "PR191108147286",
+                          "product" : {
+                            "_object" : "/product",
+                            "id" : "3945266",
+                            "name" : "MIDEA MRC07M5AWW 7.0CUFT CHEST FREEZER",
+                            "sku" : "1383611"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "shippers" : [
+                {
+                  "_object" : "/company_entity",
+                  "id" : 703476,
+                  "name" : "Midea Hefei Refrigerator Co., Ltd",
+                  "mailing_address" : {
+                    "_object" : "/address",
+                    "street_address" : "#176 JINXIU ROAD,HEFEI ECONOMY AND TECHNOLOGY DEVELOPMENT AREA ",
+                    "city" : "Hefei",
+                    "state" : "Anhui",
+                    "country" : "China",
+                    "country_code" : "CN",
+                    "zip" : "230601",
+                    "timezone" : "Asia/Shanghai"
+                  },
+                  "ref" : "id-703476"
+                }
+              ],
+              "consignees" : [
+                {
+                  "_object" : "/company_entity",
+                  "id" : 700500,
+                  "name" : "America Corp.",
+                  "mailing_address" : {
+                    "_object" : "/address",
+                    "street_address" : "5 WILLOWBROOK WAY",
+                    "street_address2" : "",
+                    "city" : "PARSIPPANY",
+                    "state" : "NJ",
+                    "country" : "United States",
+                    "country_code" : "US",
+                    "zip" : "07054-3818",
+                    "timezone" : "America/New_York"
+                  },
+                  "ref" : "id-700500"
+                }
+              ],
+              "importers_of_record" : [
+                {
+                  "_object" : "/company_entity",
+                  "id" : "700500",
+                  "name" : "America Corp.",
+                  "mailing_address" : {
+                    "_object" : "/address",
+                    "street_address" : "5 WILLOWBROOK WAY",
+                    "street_address2" : "",
+                    "city" : "PARSIPPANY",
+                    "state" : "NJ",
+                    "country" : "United States",
+                    "country_code" : "US",
+                    "zip" : "07054-3818",
+                    "timezone" : "America/New_York"
+                  },
+                  "ref" : "id-700500"
+                }
+              ],
+              "items" : [
+                {
+                  "_object" : "/shipment_item",
+                  "id" : 4363904,
+                  "total_units" : "166.0",
+                  "total_weight" : {
+                    "value" : 5773.48,
+                    "unit" : "kg",
+                    "_object" : "/quantity/weight"
+                  },
+                  "total_volume" : {
+                    "value" : 72.68,
+                    "unit" : "cbm",
+                    "_object" : "/quantity/volume"
+                  },
+                  "purchase_order_number" : "PR191108147286",
+                  "product" : {
+                    "_object" : "/product",
+                    "id" : 3945266,
+                    "sku" : "1383611",
+                    "name" : "MIDEA MRC07M5AWW 7.0CUFT CHEST FREEZER"
+                  }
+                }
+              ],
+              "legs" : {
+                "_object" : "/api/collections/paginated",
+                "data" : [
+                  {
+                    "_object" : "/shipment_leg",
+                    "id" : "5984260",
+                    "shipment" : {
+                      "_object" : "/api/refs/object",
+                      "ref_type" : "/shipment",
+                      "link" : "https://api.flexport.com/shipments/123456",
+                      "id" : "123456"
+                    },
+                    "estimated_arrival_date" : "2019-12-24T12:00:00.000+08:00",
+                    "actual_arrival_date" : "2019-12-23T12:00:00.000+08:00",
+                    "estimated_departure_date" : "2019-12-24T12:00:00.000+08:00",
+                    "actual_departure_date" : "2019-12-23T12:00:00.000+08:00",
+                    "cargo_ready_date" : "2019-12-20",
+                    "additional_dates" : {
+                      "cargo_ready_date" : "2019-12-20"
+                    },
+                    "origin" : {
+                      "_object" : "/shipment_node",
+                      "tags" : [
+                        "origin_address"
+                      ],
+                      "place" : {
+                        "_object" : "/place",
+                        "name" : "Hefei Co. Ltd",
+                        "address" : {
+                          "_object" : "/address",
+                          "street_address" : "#176 JINXIU ROAD,HEFEI ECONOMY AND TECHNOLOGY DEVELOPMENT AREA",
+                          "city" : "Hefei",
+                          "state" : "Anhui",
+                          "country" : "China",
+                          "country_code" : "CN",
+                          "zip" : "230601",
+                          "timezone" : "Asia/Shanghai",
+                          "ref" : "id-230309"
+                        }
+                      }
+                    },
+                    "destination" : {
+                      "_object" : "/shipment_node",
+                      "place" : {
+                        "_object" : "/place",
+                        "name" : "Wuhu",
+                        "address" : {
+                          "_object" : "/address",
+                          "city" : "Wuhu",
+                          "country" : "China",
+                          "country_code" : "CN",
+                          "unlocode" : "CNWHI",
+                          "timezone" : "Asia/Shanghai",
+                          "ref" : "id-39047"
+                        },
+                        "details" : [
+                          {
+                            "_object" : "/trucking/port",
+                            "port_code" : "57000"
+                          },
+                          {
+                            "_object" : "/ocean/port",
+                            "port_code" : "57000"
+                          }
+                        ]
+                      }
+                    },
+                    "transportation_mode" : "truck",
+                    "trucking_leg" : {
+                      "_object" : "/trucking/shipment_leg",
+                      "service_type" : "drayage",
+                      "container_legs" : {
+                        "_object" : "/api/collections/paginated"
+                      }
+                    }
+                  },
+                  {
+                    "_object" : "/shipment_leg",
+                    "id" : "6204339",
+                    "shipment" : {
+                      "_object" : "/api/refs/object",
+                      "ref_type" : "/shipment",
+                      "link" : "https://api.flexport.com/shipments/123456",
+                      "id" : "123456"
+                    },
+                    "estimated_arrival_date" : "2020-01-04T12:00:00.000+08:00",
+                    "actual_arrival_date" : "2020-01-04T12:00:00.000+08:00",
+                    "estimated_departure_date" : "2019-12-26T12:00:00.000+08:00",
+                    "actual_departure_date" : "2019-12-29T12:00:00.000+08:00",
+                    "origin" : {
+                      "_object" : "/shipment_node",
+                      "place" : {
+                        "_object" : "/place",
+                        "name" : "Wuhu",
+                        "address" : {
+                          "_object" : "/address",
+                          "city" : "Wuhu",
+                          "country" : "China",
+                          "country_code" : "CN",
+                          "unlocode" : "CNWHI",
+                          "timezone" : "Asia/Shanghai",
+                          "ref" : "id-39047"
+                        },
+                        "details" : [
+                          {
+                            "_object" : "/trucking/port",
+                            "port_code" : "57000"
+                          },
+                          {
+                            "_object" : "/ocean/port",
+                            "port_code" : "57000"
+                          }
+                        ]
+                      }
+                    },
+                    "destination" : {
+                      "_object" : "/shipment_node",
+                      "tags" : [
+                        "port_of_loading"
+                      ],
+                      "place" : {
+                        "_object" : "/place",
+                        "name" : "Shanghai, China",
+                        "address" : {
+                          "_object" : "/address",
+                          "city" : "Shanghai ",
+                          "country" : "China",
+                          "country_code" : "CN",
+                          "unlocode" : "CNSHG",
+                          "timezone" : "Asia/Shanghai",
+                          "ref" : "id-39042"
+                        },
+                        "details" : [
+                          {
+                            "_object" : "/trucking/port",
+                            "port_code" : "57035"
+                          },
+                          {
+                            "_object" : "/ocean/port",
+                            "port_code" : "57035"
+                          }
+                        ]
+                      }
+                    },
+                    "transportation_mode" : "ocean",
+                    "carrier_name" : "COSCO Container L.",
+                    "ocean_leg" : {
+                      "_object" : "/ocean/shipment_leg",
+                      "scac_code" : "COSU",
+                      "vessel_name" : "FAN YA TAI CANG",
+                      "voyage_number" : "L378E"
+                    }
+                  },
+                  {
+                    "_object" : "/shipment_leg",
+                    "id" : "6204340",
+                    "shipment" : {
+                      "_object" : "/api/refs/object",
+                      "ref_type" : "/shipment",
+                      "link" : "https://api.flexport.com/shipments/123456",
+                      "id" : "123456"
+                    },
+                    "estimated_arrival_date" : "2020-01-28T18:00:00.000-08:00",
+                    "actual_arrival_date" : "2020-01-28T12:00:00.000-08:00",
+                    "estimated_departure_date" : "2020-01-05T03:00:00.000+08:00",
+                    "actual_departure_date" : "2020-01-05T12:00:00.000+08:00",
+                    "origin" : {
+                      "_object" : "/shipment_node",
+                      "tags" : [
+                        "port_of_loading"
+                      ],
+                      "place" : {
+                        "_object" : "/place",
+                        "name" : "Shanghai, China",
+                        "address" : {
+                          "_object" : "/address",
+                          "city" : "Shanghai ",
+                          "country" : "China",
+                          "country_code" : "CN",
+                          "unlocode" : "CNSHG",
+                          "timezone" : "Asia/Shanghai",
+                          "ref" : "id-39042"
+                        },
+                        "details" : [
+                          {
+                            "_object" : "/trucking/port",
+                            "port_code" : "57035"
+                          },
+                          {
+                            "_object" : "/ocean/port",
+                            "port_code" : "57035"
+                          }
+                        ]
+                      }
+                    },
+                    "destination" : {
+                      "_object" : "/shipment_node",
+                      "tags" : [
+                        "port_of_unloading",
+                        "fmc_port_of_unloading"
+                      ],
+                      "place" : {
+                        "_object" : "/place",
+                        "name" : "Oakland, CA",
+                        "address" : {
+                          "_object" : "/address",
+                          "city" : "Oakland",
+                          "state" : "CA",
+                          "country" : "United States",
+                          "country_code" : "US",
+                          "unlocode" : "USOAK",
+                          "timezone" : "America/Los_Angeles",
+                          "ref" : "id-41584"
+                        },
+                        "details" : [
+                          {
+                            "_object" : "/ocean/railport",
+                            "port_code" : "2811"
+                          },
+                          {
+                            "_object" : "/trucking/port",
+                            "port_code" : "2811"
+                          },
+                          {
+                            "_object" : "/ocean/port",
+                            "port_code" : "2811"
+                          }
+                        ]
+                      }
+                    },
+                    "transportation_mode" : "ocean",
+                    "carrier_name" : "COSCO Container L.",
+                    "ocean_leg" : {
+                      "_object" : "/ocean/shipment_leg",
+                      "scac_code" : "COSU",
+                      "vessel_name" : "COSCO NETHERLANDS",
+                      "vessel_imo" : "9516430",
+                      "voyage_number" : "032E"
+                    }
+                  },
+                  {
+                    "_object" : "/shipment_leg",
+                    "id" : "6204341",
+                    "shipment" : {
+                      "_object" : "/api/refs/object",
+                      "ref_type" : "/shipment",
+                      "link" : "https://api.flexport.com/shipments/123456",
+                      "id" : "123456"
+                    },
+                    "estimated_arrival_date" : "2020-02-02T11:00:00.000-07:00",
+                    "actual_arrival_date" : "2020-02-02T08:12:00.000-07:00",
+                    "estimated_departure_date" : "2020-01-30T12:00:00.000-08:00",
+                    "actual_departure_date" : "2020-01-30T12:00:00.000-08:00",
+                    "origin" : {
+                      "_object" : "/shipment_node",
+                      "tags" : [
+                        "port_of_unloading",
+                        "fmc_port_of_unloading"
+                      ],
+                      "place" : {
+                        "_object" : "/place",
+                        "name" : "Oakland, CA",
+                        "address" : {
+                          "_object" : "/address",
+                          "city" : "Oakland",
+                          "state" : "CA",
+                          "country" : "United States",
+                          "country_code" : "US",
+                          "unlocode" : "USOAK",
+                          "timezone" : "America/Los_Angeles",
+                          "ref" : "id-41584"
+                        },
+                        "details" : [
+                          {
+                            "_object" : "/ocean/railport",
+                            "port_code" : "2811"
+                          },
+                          {
+                            "_object" : "/trucking/port",
+                            "port_code" : "2811"
+                          },
+                          {
+                            "_object" : "/ocean/port",
+                            "port_code" : "2811"
+                          }
+                        ]
+                      }
+                    },
+                    "destination" : {
+                      "_object" : "/shipment_node",
+                      "tags" : [
+                        "customs_entry",
+                        "place_of_delivery"
+                      ],
+                      "place" : {
+                        "_object" : "/place",
+                        "name" : "Salt Lake City, UT",
+                        "address" : {
+                          "_object" : "/address",
+                          "city" : "Salt Lake City",
+                          "state" : "UT",
+                          "country" : "United States",
+                          "country_code" : "US",
+                          "unlocode" : "USSLC",
+                          "timezone" : "America/Denver",
+                          "ref" : "id-41671"
+                        },
+                        "details" : [
+                          {
+                            "_object" : "/ocean/railport",
+                            "port_code" : "3303"
+                          },
+                          {
+                            "_object" : "/trucking/port",
+                            "port_code" : "3303"
+                          }
+                        ]
+                      }
+                    },
+                    "transportation_mode" : "rail",
+                    "carrier_name" : "COSCO Container L.",
+                    "rail_leg" : {
+                      "_object" : "/rail/shipment_leg"
+                    }
+                  },
+                  {
+                    "_object" : "/shipment_leg",
+                    "id" : "5984261",
+                    "shipment" : {
+                      "_object" : "/api/refs/object",
+                      "ref_type" : "/shipment",
+                      "link" : "https://api.flexport.com/shipments/123456",
+                      "id" : "123456"
+                    },
+                    "estimated_arrival_date" : "2020-02-07T12:00:00.000-07:00",
+                    "actual_arrival_date" : "2020-02-07T12:00:00.000-07:00",
+                    "estimated_departure_date" : "2020-02-04T12:00:00.000-07:00",
+                    "actual_departure_date" : "2020-02-04T16:26:00.000-07:00",
+                    "origin" : {
+                      "_object" : "/shipment_node",
+                      "tags" : [
+                        "customs_entry",
+                        "place_of_delivery"
+                      ],
+                      "place" : {
+                        "_object" : "/place",
+                        "name" : "Salt Lake City, UT",
+                        "address" : {
+                          "_object" : "/address",
+                          "city" : "Salt Lake City",
+                          "state" : "UT",
+                          "country" : "United States",
+                          "country_code" : "US",
+                          "unlocode" : "USSLC",
+                          "timezone" : "America/Denver",
+                          "ref" : "id-41671"
+                        },
+                        "details" : [
+                          {
+                            "_object" : "/ocean/railport",
+                            "port_code" : "3303"
+                          },
+                          {
+                            "_object" : "/trucking/port",
+                            "port_code" : "3303"
+                          }
+                        ]
+                      }
+                    },
+                    "destination" : {
+                      "_object" : "/shipment_node",
+                      "tags" : [
+                        "destination_address"
+                      ],
+                      "place" : {
+                        "_object" : "/place",
+                        "name" : "COSTCO WHOLESALE DC 584",
+                        "address" : {
+                          "_object" : "/address",
+                          "street_address" : "5995 W 300 South Street",
+                          "city" : "Salt Lake City",
+                          "state" : "Utah",
+                          "country" : "United States",
+                          "country_code" : "US",
+                          "zip" : "84104",
+                          "timezone" : "America/Denver",
+                          "ref" : "id-273478"
+                        }
+                      }
+                    },
+                    "transportation_mode" : "truck",
+                    "carrier_name" : "Specialized Rail Service",
+                    "trucking_leg" : {
+                      "_object" : "/trucking/shipment_leg",
+                      "service_type" : "drayage",
+                      "container_legs" : {
+                        "_object" : "/api/collections/paginated"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,16 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite1" verbose="3">
 	<test name="Test1">
-		<groups>
-			<run>
-				<include name="regression"></include>
-				<include name="sanity"></include>
-			</run>
-		</groups>
 		<classes>
 			<class name="com.testng.demo.TestNGDemo">
-				<!-- <methods> <include name="method2" /> <include name="method1" /> 
-					</methods> -->
 			</class>
 		</classes>
 	</test>

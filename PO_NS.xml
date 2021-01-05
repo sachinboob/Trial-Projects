@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PurchaseOrder xmlns:tranPurch="urn:purchases_2018_2.transactions.webservices.netsuite.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" externalId="5" internalId="11028">
+   <createdDate>2016-07-13T17:25:23.000-07:00</createdDate>
+   <lastModifiedDate>2016-08-02T20:07:56.000-07:00</lastModifiedDate>
+   <entity internalId="1949">
+      <name xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com">Witt &amp; Panderson</name>
+   </entity>
+   <tranDate>2015-08-12T11:30:00.000-07:00</tranDate>
+   <tranId>9140</tranId>
+   <exchangeRate>1.0</exchangeRate>
+   <source>CSV</source>
+   <currencyName>AUD</currencyName>
+   <toBePrinted>false</toBePrinted>
+   <toBeEmailed>false</toBeEmailed>
+   <email>MapletonMaybelle@wittpanderson.com.au</email>
+   <toBeFaxed>false</toBeFaxed>
+   <billingAddress xmlns:platformCommon="urn:common_2018_2.platform.webservices.netsuite.com">
+      <internalId>1148</internalId>
+      <country>_australia</country>
+      <addressee>Witt &amp; Panderson</addressee>
+      <addr1>22 Gosford Avenue</addr1>
+      <city>Gosford</city>
+      <state>NSW</state>
+      <zip>2250</zip>
+      <addrText>Witt &amp; Panderson&lt;br&gt;22 Gosford Avenue&lt;br&gt;Gosford NSW 2250&lt;br&gt;Australia</addrText>
+      <override>false</override>
+   </billingAddress>
+   <currency internalId="5">
+      <name xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com">AUD</name>
+   </currency>
+   <subTotal>39.44</subTotal>
+   <taxTotal>3.94</taxTotal>
+   <shippingAddress xmlns:platformCommon="urn:common_2018_2.platform.webservices.netsuite.com">
+      <internalId>1851</internalId>
+      <country>_australia</country>
+      <addressee>Sydney</addressee>
+      <addrPhone>+61 2 9878 79999</addrPhone>
+      <addr1>12 Sir Joseph Banks Street</addr1>
+      <city>Botany</city>
+      <state>NSW</state>
+      <zip>2009</zip>
+      <addrText>Sydney&lt;br&gt;12 Sir Joseph Banks Street&lt;br&gt;Botany NSW 2009&lt;br&gt;Australia</addrText>
+      <override>false</override>
+   </shippingAddress>
+   <shipIsResidential>false</shipIsResidential>
+   <shipDate>2016-07-13T11:30:00.000-07:00</shipDate>
+   <total>43.38</total>
+   <location internalId="15">
+      <name xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com">Sydney</name>
+   </location>
+   <subsidiary internalId="36">
+      <name xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com">Australia</name>
+   </subsidiary>
+   <status>Pending Receipt</status>
+   <itemList>
+      <item>
+         <item internalId="1954">
+            <name xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com">BUILDING MATERIALS : Circuit Breaker Circuit Breaker</name>
+         </item>
+         <line>1</line>
+         <quantityReceived>0.0</quantityReceived>
+         <quantityBilled>4.0</quantityBilled>
+         <taxCode internalId="1700">
+            <name xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com">GST:NCT-AU</name>
+         </taxCode>
+         <taxRate1>10.0</taxRate1>
+         <quantity>4.0</quantity>
+         <tax1Amt>3.94</tax1Amt>
+         <grossAmt>43.38</grossAmt>
+         <units internalId="1">
+            <name xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com">Ea</name>
+         </units>
+         <description>30 AMP Two-Pole Circuit Breaker</description>
+         <rate>9.86</rate>
+         <amount>39.44</amount>
+         <expectedReceiptDate>2015-08-13T00:00:00.000-07:00</expectedReceiptDate>
+         <customFieldList>
+            <AssetAccount xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="13497" scriptId="custcol_ava_assetaccount" xsi:type="SelectCustomFieldRef">
+               <value internalId="120" typeId="-112">
+                  <name>Inventory</name>
+               </value>
+            </AssetAccount>
+            <ExpenseAccount xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="13498" scriptId="custcol_ava_expenseaccount" xsi:type="SelectCustomFieldRef">
+               <value internalId="770" typeId="-112">
+                  <name>Purchases - Merchandise B2B</name>
+               </value>
+            </ExpenseAccount>
+            <IncomeAccount xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="13487" scriptId="custcol_ava_incomeaccount" xsi:type="StringCustomFieldRef">
+               <value>Sales - Merchandise B2B</value>
+            </IncomeAccount>
+            <Item xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="13486" scriptId="custcol_ava_item" xsi:type="StringCustomFieldRef">
+               <value>Circuit Breaker</value>
+            </Item>
+            <Item_Parent xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="9864" scriptId="custcol_scm_item_parent" xsi:type="SelectCustomFieldRef">
+               <value internalId="1945" typeId="-10">
+                  <name>BUILDING MATERIALS</name>
+               </value>
+            </Item_Parent>
+         </customFieldList>
+      </item>
+   </itemList>
+   <customFieldList>
+      <Invoice_On_Hold xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="700" scriptId="custbody11" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </Invoice_On_Hold>
+      <CFO_Approved xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="11947" scriptId="custbody5_3" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </CFO_Approved>
+      <CEO_Approved xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="11948" scriptId="custbody6_5" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </CEO_Approved>
+      <CFO___CEO_Approval_Required xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="11949" scriptId="custbody7_3" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </CFO___CEO_Approval_Required>
+      <FP_A_Approved xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="11952" scriptId="custbody8_4" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </FP_A_Approved>
+      <Requester_Approved xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="11953" scriptId="custbody9_3" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </Requester_Approved>
+      <Subsidiary_Address1 xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="13529" scriptId="custbody_ava_subsidiaryaddress1" xsi:type="StringCustomFieldRef">
+         <value>Level 13</value>
+      </Subsidiary_Address1>
+      <Subsidiary_Address2 xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="13528" scriptId="custbody_ava_subsidiaryaddress2" xsi:type="StringCustomFieldRef">
+         <value>100 Alfred Street</value>
+      </Subsidiary_Address2>
+      <Subsidiary_Addressee xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="13527" scriptId="custbody_ava_subsidiaryaddressee" xsi:type="StringCustomFieldRef">
+         <value>Australia</value>
+      </Subsidiary_Addressee>
+      <Subsidiary_City xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="13526" scriptId="custbody_ava_subsidiarycity" xsi:type="StringCustomFieldRef">
+         <value>North Sydney</value>
+      </Subsidiary_City>
+      <Subsidiary_Country xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="13525" scriptId="custbody_ava_subsidiarycountry" xsi:type="StringCustomFieldRef">
+         <value>Australia</value>
+      </Subsidiary_Country>
+      <Subsidiary_State xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="13515" scriptId="custbody_ava_subsidiarystate" xsi:type="StringCustomFieldRef">
+         <value>NSW</value>
+      </Subsidiary_State>
+      <Subsidiary_Zip xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="13514" scriptId="custbody_ava_subsidiaryzip" xsi:type="StringCustomFieldRef">
+         <value>2064</value>
+      </Subsidiary_Zip>
+      <Sync_to_Tipalti xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="10015" scriptId="custbody_billsynctotipalti" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </Sync_to_Tipalti>
+      <Cash_Register xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="8752" scriptId="custbody_cash_register" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </Cash_Register>
+      <ID_CEO_Approver xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="12049" scriptId="custbody_ceo" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </ID_CEO_Approver>
+      <ID_CFO_Approver xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="12048" scriptId="custbody_cfo_id" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </ID_CFO_Approver>
+      <ID_Controller xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="12047" scriptId="custbody_controller_id" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </ID_Controller>
+      <ID_Department_Approver xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="12044" scriptId="custbody_department_approver" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </ID_Department_Approver>
+      <Document_Date xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="5501" scriptId="custbody_document_date" xsi:type="DateCustomFieldRef">
+         <value>2016-07-13T11:30:00.000-07:00</value>
+      </Document_Date>
+      <Generate_PDF xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="13723" scriptId="custbody_edoc_gen_trans_pdf" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </Generate_PDF>
+      <Digitally_Signed_E_Documents_Identifier xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="13730" scriptId="custbody_ei_ds_txn_identifier" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </Digitally_Signed_E_Documents_Identifier>
+      <ID_FP___A_Approver xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="12045" scriptId="custbody_fpa_approver" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </ID_FP___A_Approver>
+      <Intercompany_Transaction xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="6181" scriptId="custbody_intercompany" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </Intercompany_Transaction>
+      <Tipalti_Is_Paid_Manually xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="9783" scriptId="custbody_ispaidmanually_tipalti" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </Tipalti_Is_Paid_Manually>
+      <Next_Approver_OOO xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="11950" scriptId="custbody_nextapproverooo" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </Next_Approver_OOO>
+      <Non_Deductible_Tax_Adjusted xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="5310" scriptId="custbody_nondeductible_processed" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </Non_Deductible_Tax_Adjusted>
+      <Controller_Approval xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="220" scriptId="custbody_powf_ctrl_ok" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </Controller_Approval>
+      <Senior_Executive_Approval xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="223" scriptId="custbody_powf_se_ok" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </Senior_Executive_Approval>
+      <Report_Timestamp xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="5314" scriptId="custbody_report_timestamp" xsi:type="StringCustomFieldRef">
+         <value>13/10/2014 17:25:23</value>
+      </Report_Timestamp>
+      <Submit_for_Approval xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="14348" scriptId="custbody_s_f_a" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </Submit_for_Approval>
+      <Simplified_Invoice_Article_7_2_7_3 xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="13157" scriptId="custbody_sii_article_72_73" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </Simplified_Invoice_Article_7_2_7_3>
+      <Billing_Record_Cannot_Be_Submitted_On_Time xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="13158" scriptId="custbody_sii_not_reported_in_time" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </Billing_Record_Cannot_Be_Submitted_On_Time>
+      <Submitted_for_Approval xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="11938" scriptId="custbody_submit_for_approval" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </Submitted_for_Approval>
+      <SVB_Schedule_In_Process xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="6864" scriptId="custbody_svb_sched_in_process" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </SVB_Schedule_In_Process>
+      <Sync__via_Mass_Update xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="10013" scriptId="custbody_syncviamassupdate" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </Sync__via_Mass_Update>
+      <Is_Delegated xmlns:platformCore="urn:core_2018_2.platform.webservices.netsuite.com" internalId="6785" scriptId="custbody_tsg_is_delegated" xsi:type="BooleanCustomFieldRef">
+         <value>false</value>
+      </Is_Delegated>
+   </customFieldList>
+</PurchaseOrder>

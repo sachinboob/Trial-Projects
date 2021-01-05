@@ -4,9 +4,11 @@ public class Diamond_Pattern {
 
 	public static void main(String[] args) {
 
-		draw_diamonds_with_space(5);
+		System.out.println("Args : " + args[0]);
+		
+		draw_diamonds_with_space(Integer.parseInt(args[0]));
 
-		draw_diamonds_without_space(5);
+		draw_diamonds_without_space(Integer.parseInt(args[0]));
 	}
 
 	public static void draw_diamonds_without_space(int max_number) {
@@ -20,7 +22,7 @@ public class Diamond_Pattern {
 			}
 
 			// for loop - star character
-			for (int j = 0; j < 2 * i - 1; j++) {
+			for (int j = 1; j <= 2 * i - 1; j++) {
 				System.out.print("*");
 			}
 
@@ -36,7 +38,7 @@ public class Diamond_Pattern {
 			}
 
 			// for loop - star character
-			for (int j = 0; j < 2 * i - 1; j++) {
+			for (int j = 1; j <= 2 * i - 1; j++) {
 				System.out.print("*");
 			}
 

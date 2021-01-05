@@ -1,0 +1,2183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<_object>/api/response</_object>
+	<data>
+		<_object>/api/collections/paginated</_object>
+		<data>
+			<element>
+				<_object>/invoice</_object>
+				<balance>
+					<_object>/money</_object>
+					<amount>4495.85</amount>
+					<currency_code>USD</currency_code>
+				</balance>
+				<credit_memos />
+				<due_date>2020-03-11</due_date>
+				<id>HewcVv6iQrGCcpexIcAa2w</id>
+				<issued_at>2020-02-11T03:35:49.961Z</issued_at>
+				<issuer>
+					<_object>/company_entity</_object>
+					<id>28714</id>
+					<mailing_address>
+						<_object>/address</_object>
+						<city>SAN FRANCISCO</city>
+						<country>United States</country>
+						<country_code>US</country_code>
+						<ref null="true" />
+						<state>CA</state>
+						<street_address>760 MARKET ST FL 8</street_address>
+						<street_address2 />
+						<timezone>America/Los_Angeles</timezone>
+						<unlocode null="true" />
+						<zip>94102-2300</zip>
+					</mailing_address>
+					<name>Flexport LLC</name>
+					<ref>id-28714</ref>
+					<vat_numbers />
+				</issuer>
+				<items>
+					<element>
+						<_object>/invoice_item</_object>
+						<amount>
+							<_object>/money</_object>
+							<amount>108</amount>
+							<currency_code>USD</currency_code>
+						</amount>
+						<category>destination</category>
+						<name>Chassis</name>
+						<quantity null="true" />
+						<rate null="true" />
+						<slug>chassis</slug>
+					</element>
+					<element>
+						<_object>/invoice_item</_object>
+						<amount>
+							<_object>/money</_object>
+							<amount>125</amount>
+							<currency_code>USD</currency_code>
+						</amount>
+						<category>customs</category>
+						<name>Import Customs Clearance</name>
+						<quantity>
+							<_object>/invoice/quantity</_object>
+							<qualifier>total</qualifier>
+							<value>1</value>
+						</quantity>
+						<rate>
+							<_object>/invoice/rate</_object>
+							<qualifier>USD</qualifier>
+							<value>125.00</value>
+						</rate>
+						<slug>import_customs_clearance</slug>
+					</element>
+					<element>
+						<_object>/invoice_item</_object>
+						<amount>
+							<_object>/money</_object>
+							<amount>165</amount>
+							<currency_code>USD</currency_code>
+						</amount>
+						<category>destination</category>
+						<name>Drayage Base</name>
+						<quantity>
+							<_object>/invoice/quantity</_object>
+							<qualifier>container</qualifier>
+							<value>1</value>
+						</quantity>
+						<rate>
+							<_object>/invoice/rate</_object>
+							<qualifier>USD</qualifier>
+							<value>165.00</value>
+						</rate>
+						<slug>drayage_base</slug>
+					</element>
+					<element>
+						<_object>/invoice_item</_object>
+						<amount>
+							<_object>/money</_object>
+							<amount>47.85</amount>
+							<currency_code>USD</currency_code>
+						</amount>
+						<category>destination</category>
+						<name>Fuel Surcharge</name>
+						<quantity>
+							<_object>/invoice/quantity</_object>
+							<qualifier>USD</qualifier>
+							<value>165.00</value>
+						</quantity>
+						<rate>
+							<_object>/invoice/rate</_object>
+							<qualifier>% Drayage Base</qualifier>
+							<value>29</value>
+						</rate>
+						<slug>fuel_surcharge</slug>
+					</element>
+					<element>
+						<_object>/invoice_item</_object>
+						<amount>
+							<_object>/money</_object>
+							<amount>35</amount>
+							<currency_code>USD</currency_code>
+						</amount>
+						<category>freight</category>
+						<name>Automated Manifest System</name>
+						<quantity>
+							<_object>/invoice/quantity</_object>
+							<qualifier>total</qualifier>
+							<value>1</value>
+						</quantity>
+						<rate>
+							<_object>/invoice/rate</_object>
+							<qualifier>USD</qualifier>
+							<value>35.00</value>
+						</rate>
+						<slug>automated_manifest_system_freight</slug>
+					</element>
+					<element>
+						<_object>/invoice_item</_object>
+						<amount>
+							<_object>/money</_object>
+							<amount>4015</amount>
+							<currency_code>USD</currency_code>
+						</amount>
+						<category>freight</category>
+						<name>FCL - 40' HQ Container</name>
+						<quantity>
+							<_object>/invoice/quantity</_object>
+							<qualifier>container</qualifier>
+							<value>1</value>
+						</quantity>
+						<rate>
+							<_object>/invoice/rate</_object>
+							<qualifier>USD</qualifier>
+							<value>4015.00</value>
+						</rate>
+						<slug>fcl_40_hq_container</slug>
+					</element>
+				</items>
+				<last_updated_at null="true" />
+				<name>FLEX-345678-1</name>
+				<notes>
+					<element>**Containers**
+
+
+						MAGU5214674 (Dry, 40 ft HC)
+					</element>
+					<element>**Notes**
+
+					</element>
+				</notes>
+				<recipient>
+					<_object>/company_entity</_object>
+					<id>700500</id>
+					<mailing_address>
+						<_object>/address</_object>
+						<city>PARSIPPANY</city>
+						<country>United States</country>
+						<country_code>US</country_code>
+						<ref null="true" />
+						<state>NJ</state>
+						<street_address>5 WILLOWBROOK WAY</street_address>
+						<street_address2 />
+						<timezone>America/New_York</timezone>
+						<unlocode null="true" />
+						<zip>07054-3818</zip>
+					</mailing_address>
+					<name>Beaverly Corp.</name>
+					<ref>id-700500</ref>
+					<vat_numbers />
+				</recipient>
+				<shipments>
+					<_object>/api/collections/paginated</_object>
+					<data>
+						<element>
+							<_object>/shipment</_object>
+							<actual_arrival_date>2020-02-01T12:00:00.000-07:00
+							</actual_arrival_date>
+							<actual_delivered_in_full_date>2020-02-07T12:00:00.000-07:00
+							</actual_delivered_in_full_date>
+							<actual_departure_date>2019-12-29T12:00:00.000+08:00
+							</actual_departure_date>
+							<actual_picked_up_in_full_date>2019-12-21T12:00:00.000+08:00
+							</actual_picked_up_in_full_date>
+							<air_shipment null="true" />
+							<archived_at null="true" />
+							<arrival_date>2020-02-01T12:00:00.000-07:00</arrival_date>
+							<booking null="true" />
+							<buyers />
+							<calculated_volume>
+								<_object>/quantity/volume</_object>
+								<unit>cbm</unit>
+								<value>72.68</value>
+							</calculated_volume>
+							<calculated_weight>
+								<_object>/quantity/weight</_object>
+								<unit>kg</unit>
+								<value>5818.3</value>
+							</calculated_weight>
+							<cargo_ready_date>2019-12-19</cargo_ready_date>
+							<commercial_invoices>
+								<_object>/api/refs/collection</_object>
+								<link>https://api.flexport.com/commercial_invoices?f.shipment.id=345678
+								</link>
+								<ref_type>/commercial_invoice</ref_type>
+							</commercial_invoices>
+							<consignees>
+								<element>
+									<_object>/company_entity</_object>
+									<id>700500</id>
+									<mailing_address>
+										<_object>/address</_object>
+										<city>PARSIPPANY</city>
+										<country>United States</country>
+										<country_code>US</country_code>
+										<ref null="true" />
+										<state>NJ</state>
+										<street_address>5 WILLOWBROOK WAY</street_address>
+										<street_address2 />
+										<timezone>America/New_York</timezone>
+										<unlocode null="true" />
+										<zip>07054-3818</zip>
+									</mailing_address>
+									<name>Beaverly Corp.</name>
+									<ref>id-700500</ref>
+									<vat_numbers />
+								</element>
+							</consignees>
+							<created_date>2019-11-22T00:09:55.420Z</created_date>
+							<customs_entries>
+								<_object>/api/refs/collection</_object>
+								<link>https://api.flexport.com/customs_entries?f.shipment.id=345678
+								</link>
+								<ref_type>/customs_entry</ref_type>
+							</customs_entries>
+							<delivered_in_full_date>2020-02-07T12:00:00.000-07:00
+							</delivered_in_full_date>
+							<departure_date>2019-12-29T12:00:00.000+08:00</departure_date>
+							<documents>
+								<_object>/api/refs/collection</_object>
+								<link>https://api.flexport.com/documents?f.shipment.id=345678
+								</link>
+								<ref_type>/document</ref_type>
+							</documents>
+							<estimated_arrival_date>2020-02-01T08:00:00.000-07:00
+							</estimated_arrival_date>
+							<estimated_delivered_in_full_date>2020-02-07T12:00:00.000-07:00
+							</estimated_delivered_in_full_date>
+							<estimated_departure_date>2019-12-26T12:00:00.000+08:00
+							</estimated_departure_date>
+							<estimated_picked_up_in_full_date>2019-12-22T12:00:00.000+08:00
+							</estimated_picked_up_in_full_date>
+							<freight_type>port_to_door</freight_type>
+							<id>345678</id>
+							<importers_of_record>
+								<element>
+									<_object>/company_entity</_object>
+									<id>700500</id>
+									<mailing_address>
+										<_object>/address</_object>
+										<city>PARSIPPANY</city>
+										<country>United States</country>
+										<country_code>US</country_code>
+										<ref null="true" />
+										<state>NJ</state>
+										<street_address>5 WILLOWBROOK WAY</street_address>
+										<street_address2 />
+										<timezone>America/New_York</timezone>
+										<unlocode null="true" />
+										<zip>07054-3818</zip>
+									</mailing_address>
+									<name>Beaverly Corp.</name>
+									<ref>id-700500</ref>
+									<vat_numbers />
+								</element>
+							</importers_of_record>
+							<incoterm>FOB</incoterm>
+							<it_number>V2175419986</it_number>
+							<items>
+								<element>
+									<_object>/shipment_item</_object>
+									<id>4363886</id>
+									<product>
+										<_object>/product</_object>
+										<archived_at null="true" />
+										<classifications>
+											<element>
+												<_object>/product/classification</_object>
+												<codes>
+													<element>8418.30.00.00</element>
+												</codes>
+												<region>US</region>
+											</element>
+										</classifications>
+										<country_of_origin null="true" />
+										<hs_codes />
+										<id>3945266</id>
+										<name>MIDEA MRC07M5AWW 7.0CUFT CHEST FREEZER</name>
+										<product_category null="true" />
+										<product_properties />
+										<sku>1383611</sku>
+									</product>
+									<purchase_order_number>PR191108147276</purchase_order_number>
+									<total_units>166.0</total_units>
+									<total_volume>
+										<_object>/quantity/volume</_object>
+										<unit>cbm</unit>
+										<value>72.68</value>
+									</total_volume>
+									<total_weight>
+										<_object>/quantity/weight</_object>
+										<unit>kg</unit>
+										<value>5818.3</value>
+									</total_weight>
+								</element>
+							</items>
+							<legs>
+								<_object>/api/collections/paginated</_object>
+								<data>
+									<element>
+										<_object>/shipment_leg</_object>
+										<actual_arrival_date>2019-12-21T12:00:00.000+08:00
+										</actual_arrival_date>
+										<actual_departure_date>2019-12-21T12:00:00.000+08:00
+										</actual_departure_date>
+										<additional_dates>
+											<cargo_ready_date>2019-12-19</cargo_ready_date>
+											<delivery_appointment_scheduled_for_date>2019-12-22T12:00:00.000+08:00
+											</delivery_appointment_scheduled_for_date>
+											<delivery_completed>2019-12-21T12:00:00.000+08:00
+											</delivery_completed>
+										</additional_dates>
+										<air_leg null="true" />
+										<cargo_ready_date>2019-12-19</cargo_ready_date>
+										<carrier_name null="true" />
+										<destination>
+											<_object>/shipment_node</_object>
+											<place>
+												<_object>/place</_object>
+												<address>
+													<_object>/address</_object>
+													<city>Wuhu</city>
+													<country>China</country>
+													<country_code>CN</country_code>
+													<ref>id-39047</ref>
+													<state null="true" />
+													<street_address null="true" />
+													<street_address2 null="true" />
+													<timezone>Asia/Shanghai</timezone>
+													<unlocode>CNWHI</unlocode>
+													<zip null="true" />
+												</address>
+												<details>
+													<element>
+														<_object>/trucking/port</_object>
+														<port_code>57000</port_code>
+													</element>
+													<element>
+														<_object>/ocean/port</_object>
+														<port_code>57000</port_code>
+													</element>
+												</details>
+												<name>Wuhu</name>
+											</place>
+											<tags />
+											<terminal null="true" />
+										</destination>
+										<estimated_arrival_date>2019-12-22T12:00:00.000+08:00
+										</estimated_arrival_date>
+										<estimated_departure_date>2019-12-22T12:00:00.000+08:00
+										</estimated_departure_date>
+										<id>5984267</id>
+										<ocean_leg null="true" />
+										<origin>
+											<_object>/shipment_node</_object>
+											<place>
+												<_object>/place</_object>
+												<address>
+													<_object>/address</_object>
+													<city>Hefei</city>
+													<country>China</country>
+													<country_code>CN</country_code>
+													<ref>id-230309</ref>
+													<state>Anhui</state>
+													<street_address>#176 JINXIU ROAD,HEFEI ECONOMY AND
+														TECHNOLOGY DEVELOPMENT AREA</street_address>
+													<street_address2 null="true" />
+													<timezone>Asia/Shanghai</timezone>
+													<unlocode null="true" />
+													<zip>230601</zip>
+												</address>
+												<details />
+												<name>Hefei Refrigerator Co. Ltd</name>
+											</place>
+											<tags>
+												<element>origin_address</element>
+											</tags>
+											<terminal null="true" />
+										</origin>
+										<rail_leg null="true" />
+										<shipment>
+											<_object>/api/refs/object</_object>
+											<id>345678</id>
+											<link>https://api.flexport.com/shipments/345678</link>
+											<ref_type>/shipment</ref_type>
+										</shipment>
+										<transportation_mode>truck</transportation_mode>
+										<trucking_leg>
+											<_object>/trucking/shipment_leg</_object>
+											<container_legs>
+												<_object>/api/collections/paginated</_object>
+												<data>
+													<element>
+														<_object>/ocean/shipment_container_leg</_object>
+														<dates />
+														<id>1283853</id>
+														<leg>
+															<_object>/shipment_leg</_object>
+															<actual_arrival_date>2019-12-21T12:00:00.000+08:00
+															</actual_arrival_date>
+															<actual_departure_date>2019-12-21T12:00:00.000+08:00
+															</actual_departure_date>
+															<additional_dates>
+																<cargo_ready_date>2019-12-19</cargo_ready_date>
+																<delivery_appointment_scheduled_for_date>2019-12-22T12:00:00.000+08:00
+																</delivery_appointment_scheduled_for_date>
+																<delivery_completed>2019-12-21T12:00:00.000+08:00
+																</delivery_completed>
+															</additional_dates>
+															<air_leg null="true" />
+															<cargo_ready_date>2019-12-19</cargo_ready_date>
+															<carrier_name null="true" />
+															<destination>
+																<_object>/shipment_node</_object>
+																<place>
+																	<_object>/place</_object>
+																	<address>
+																		<_object>/address</_object>
+																		<city>Wuhu</city>
+																		<country>China</country>
+																		<country_code>CN</country_code>
+																		<ref>id-39047</ref>
+																		<state null="true" />
+																		<street_address null="true" />
+																		<street_address2 null="true" />
+																		<timezone>Asia/Shanghai</timezone>
+																		<unlocode>CNWHI</unlocode>
+																		<zip null="true" />
+																	</address>
+																	<details>
+																		<element>
+																			<_object>/trucking/port</_object>
+																			<port_code>57000</port_code>
+																		</element>
+																		<element>
+																			<_object>/ocean/port</_object>
+																			<port_code>57000</port_code>
+																		</element>
+																	</details>
+																	<name>Wuhu</name>
+																</place>
+																<tags />
+																<terminal null="true" />
+															</destination>
+															<estimated_arrival_date>2019-12-22T12:00:00.000+08:00
+															</estimated_arrival_date>
+															<estimated_departure_date>2019-12-22T12:00:00.000+08:00
+															</estimated_departure_date>
+															<id>5984267</id>
+															<ocean_leg null="true" />
+															<origin>
+																<_object>/shipment_node</_object>
+																<place>
+																	<_object>/place</_object>
+																	<address>
+																		<_object>/address</_object>
+																		<city>Hefei</city>
+																		<country>China</country>
+																		<country_code>CN</country_code>
+																		<ref>id-230309</ref>
+																		<state>Anhui</state>
+																		<street_address>#176 JINXIU ROAD,HEFEI ECONOMY AND
+																			TECHNOLOGY DEVELOPMENT AREA</street_address>
+																		<street_address2 null="true" />
+																		<timezone>Asia/Shanghai</timezone>
+																		<unlocode null="true" />
+																		<zip>230601</zip>
+																	</address>
+																	<details />
+																	<name>Hefei Refrigerator Co. Ltd</name>
+																</place>
+																<tags>
+																	<element>origin_address</element>
+																</tags>
+																<terminal null="true" />
+															</origin>
+															<rail_leg null="true" />
+															<shipment>
+																<_object>/api/refs/object</_object>
+																<id>345678</id>
+																<link>https://api.flexport.com/shipments/345678</link>
+																<ref_type>/shipment</ref_type>
+															</shipment>
+															<transportation_mode>truck</transportation_mode>
+															<trucking_leg>
+																<_object>/trucking/shipment_leg</_object>
+																<container_legs>
+																	<_object>/api/refs/collection</_object>
+																	<link>https://api.flexport.com/ocean/shipment_container_legs?f.leg.id=5984267
+																	</link>
+																	<ref_type>/ocean/shipment_container_leg</ref_type>
+																</container_legs>
+																<pieces null="true" />
+																<service_type>drayage</service_type>
+																<tracking_number null="true" />
+															</trucking_leg>
+														</leg>
+														<shipment_container>
+															<_object>/api/refs/object</_object>
+															<id>326755</id>
+															<link>https://api.flexport.com/ocean/shipment_containers/326755
+															</link>
+															<ref_type>/ocean/shipment_container</ref_type>
+														</shipment_container>
+													</element>
+												</data>
+												<next null="true" />
+												<prev null="true" />
+												<total_count>1</total_count>
+											</container_legs>
+											<pieces null="true" />
+											<service_type>drayage</service_type>
+											<tracking_number null="true" />
+										</trucking_leg>
+									</element>
+									<element>
+										<_object>/shipment_leg</_object>
+										<actual_arrival_date>2020-01-04T12:00:00.000+08:00
+										</actual_arrival_date>
+										<actual_departure_date>2019-12-29T12:00:00.000+08:00
+										</actual_departure_date>
+										<additional_dates />
+										<air_leg null="true" />
+										<cargo_ready_date null="true" />
+										<carrier_name>COSCO Container L.</carrier_name>
+										<destination>
+											<_object>/shipment_node</_object>
+											<place>
+												<_object>/place</_object>
+												<address>
+													<_object>/address</_object>
+													<city>Shanghai </city>
+													<country>China</country>
+													<country_code>CN</country_code>
+													<ref>id-39042</ref>
+													<state null="true" />
+													<street_address null="true" />
+													<street_address2 null="true" />
+													<timezone>Asia/Shanghai</timezone>
+													<unlocode>CNSHG</unlocode>
+													<zip null="true" />
+												</address>
+												<details>
+													<element>
+														<_object>/trucking/port</_object>
+														<port_code>57035</port_code>
+													</element>
+													<element>
+														<_object>/ocean/port</_object>
+														<port_code>57035</port_code>
+													</element>
+												</details>
+												<name>Shanghai, China</name>
+											</place>
+											<tags>
+												<element>port_of_loading</element>
+											</tags>
+											<terminal null="true" />
+										</destination>
+										<estimated_arrival_date>2020-01-04T12:00:00.000+08:00
+										</estimated_arrival_date>
+										<estimated_departure_date>2019-12-26T12:00:00.000+08:00
+										</estimated_departure_date>
+										<id>6204298</id>
+										<ocean_leg>
+											<_object>/ocean/shipment_leg</_object>
+											<container_legs>
+												<_object>/api/collections/paginated</_object>
+												<data>
+													<element>
+														<_object>/ocean/shipment_container_leg</_object>
+														<dates />
+														<id>1283854</id>
+														<leg>
+															<_object>/shipment_leg</_object>
+															<actual_arrival_date>2020-01-04T12:00:00.000+08:00
+															</actual_arrival_date>
+															<actual_departure_date>2019-12-29T12:00:00.000+08:00
+															</actual_departure_date>
+															<additional_dates />
+															<air_leg null="true" />
+															<cargo_ready_date null="true" />
+															<carrier_name>COSCO Container L.</carrier_name>
+															<destination>
+																<_object>/shipment_node</_object>
+																<place>
+																	<_object>/place</_object>
+																	<address>
+																		<_object>/address</_object>
+																		<city>Shanghai </city>
+																		<country>China</country>
+																		<country_code>CN</country_code>
+																		<ref>id-39042</ref>
+																		<state null="true" />
+																		<street_address null="true" />
+																		<street_address2 null="true" />
+																		<timezone>Asia/Shanghai</timezone>
+																		<unlocode>CNSHG</unlocode>
+																		<zip null="true" />
+																	</address>
+																	<details>
+																		<element>
+																			<_object>/trucking/port</_object>
+																			<port_code>57035</port_code>
+																		</element>
+																		<element>
+																			<_object>/ocean/port</_object>
+																			<port_code>57035</port_code>
+																		</element>
+																	</details>
+																	<name>Shanghai, China</name>
+																</place>
+																<tags>
+																	<element>port_of_loading</element>
+																</tags>
+																<terminal null="true" />
+															</destination>
+															<estimated_arrival_date>2020-01-04T12:00:00.000+08:00
+															</estimated_arrival_date>
+															<estimated_departure_date>2019-12-26T12:00:00.000+08:00
+															</estimated_departure_date>
+															<id>6204298</id>
+															<ocean_leg>
+																<_object>/ocean/shipment_leg</_object>
+																<container_legs>
+																	<_object>/api/refs/collection</_object>
+																	<link>https://api.flexport.com/ocean/shipment_container_legs?f.leg.id=6204298
+																	</link>
+																	<ref_type>/ocean/shipment_container_leg</ref_type>
+																</container_legs>
+																<scac_code>COSU</scac_code>
+																<vessel_imo null="true" />
+																<vessel_name>FAN YA TAI CANG</vessel_name>
+																<voyage_number>L378E</voyage_number>
+															</ocean_leg>
+															<origin>
+																<_object>/shipment_node</_object>
+																<place>
+																	<_object>/place</_object>
+																	<address>
+																		<_object>/address</_object>
+																		<city>Wuhu</city>
+																		<country>China</country>
+																		<country_code>CN</country_code>
+																		<ref>id-39047</ref>
+																		<state null="true" />
+																		<street_address null="true" />
+																		<street_address2 null="true" />
+																		<timezone>Asia/Shanghai</timezone>
+																		<unlocode>CNWHI</unlocode>
+																		<zip null="true" />
+																	</address>
+																	<details>
+																		<element>
+																			<_object>/trucking/port</_object>
+																			<port_code>57000</port_code>
+																		</element>
+																		<element>
+																			<_object>/ocean/port</_object>
+																			<port_code>57000</port_code>
+																		</element>
+																	</details>
+																	<name>Wuhu</name>
+																</place>
+																<tags />
+																<terminal null="true" />
+															</origin>
+															<rail_leg null="true" />
+															<shipment>
+																<_object>/api/refs/object</_object>
+																<id>345678</id>
+																<link>https://api.flexport.com/shipments/345678</link>
+																<ref_type>/shipment</ref_type>
+															</shipment>
+															<transportation_mode>ocean</transportation_mode>
+															<trucking_leg null="true" />
+														</leg>
+														<shipment_container>
+															<_object>/api/refs/object</_object>
+															<id>326755</id>
+															<link>https://api.flexport.com/ocean/shipment_containers/326755
+															</link>
+															<ref_type>/ocean/shipment_container</ref_type>
+														</shipment_container>
+													</element>
+												</data>
+												<next null="true" />
+												<prev null="true" />
+												<total_count>1</total_count>
+											</container_legs>
+											<scac_code>COSU</scac_code>
+											<vessel_imo null="true" />
+											<vessel_name>FAN YA TAI CANG</vessel_name>
+											<voyage_number>L378E</voyage_number>
+										</ocean_leg>
+										<origin>
+											<_object>/shipment_node</_object>
+											<place>
+												<_object>/place</_object>
+												<address>
+													<_object>/address</_object>
+													<city>Wuhu</city>
+													<country>China</country>
+													<country_code>CN</country_code>
+													<ref>id-39047</ref>
+													<state null="true" />
+													<street_address null="true" />
+													<street_address2 null="true" />
+													<timezone>Asia/Shanghai</timezone>
+													<unlocode>CNWHI</unlocode>
+													<zip null="true" />
+												</address>
+												<details>
+													<element>
+														<_object>/trucking/port</_object>
+														<port_code>57000</port_code>
+													</element>
+													<element>
+														<_object>/ocean/port</_object>
+														<port_code>57000</port_code>
+													</element>
+												</details>
+												<name>Wuhu</name>
+											</place>
+											<tags />
+											<terminal null="true" />
+										</origin>
+										<rail_leg null="true" />
+										<shipment>
+											<_object>/api/refs/object</_object>
+											<id>345678</id>
+											<link>https://api.flexport.com/shipments/345678</link>
+											<ref_type>/shipment</ref_type>
+										</shipment>
+										<transportation_mode>ocean</transportation_mode>
+										<trucking_leg null="true" />
+									</element>
+									<element>
+										<_object>/shipment_leg</_object>
+										<actual_arrival_date>2020-01-28T12:00:00.000-08:00
+										</actual_arrival_date>
+										<actual_departure_date>2020-01-05T12:00:00.000+08:00
+										</actual_departure_date>
+										<additional_dates />
+										<air_leg null="true" />
+										<cargo_ready_date null="true" />
+										<carrier_name>COSCO Container L.</carrier_name>
+										<destination>
+											<_object>/shipment_node</_object>
+											<place>
+												<_object>/place</_object>
+												<address>
+													<_object>/address</_object>
+													<city>Oakland</city>
+													<country>United States</country>
+													<country_code>US</country_code>
+													<ref>id-41584</ref>
+													<state>CA</state>
+													<street_address null="true" />
+													<street_address2 null="true" />
+													<timezone>America/Los_Angeles</timezone>
+													<unlocode>USOAK</unlocode>
+													<zip null="true" />
+												</address>
+												<details>
+													<element>
+														<_object>/ocean/railport</_object>
+														<port_code>2811</port_code>
+													</element>
+													<element>
+														<_object>/trucking/port</_object>
+														<port_code>2811</port_code>
+													</element>
+													<element>
+														<_object>/ocean/port</_object>
+														<port_code>2811</port_code>
+													</element>
+												</details>
+												<name>Oakland, CA</name>
+											</place>
+											<tags>
+												<element>port_of_unloading</element>
+												<element>fmc_port_of_unloading</element>
+											</tags>
+											<terminal null="true" />
+										</destination>
+										<estimated_arrival_date>2020-01-28T18:00:00.000-08:00
+										</estimated_arrival_date>
+										<estimated_departure_date>2020-01-05T03:00:00.000+08:00
+										</estimated_departure_date>
+										<id>6204299</id>
+										<ocean_leg>
+											<_object>/ocean/shipment_leg</_object>
+											<container_legs>
+												<_object>/api/collections/paginated</_object>
+												<data>
+													<element>
+														<_object>/ocean/shipment_container_leg</_object>
+														<dates>
+															<actual_loaded_on_board_date>2020-01-04T19:00:00.000Z
+															</actual_loaded_on_board_date>
+														</dates>
+														<id>1283855</id>
+														<leg>
+															<_object>/shipment_leg</_object>
+															<actual_arrival_date>2020-01-28T12:00:00.000-08:00
+															</actual_arrival_date>
+															<actual_departure_date>2020-01-05T12:00:00.000+08:00
+															</actual_departure_date>
+															<additional_dates />
+															<air_leg null="true" />
+															<cargo_ready_date null="true" />
+															<carrier_name>COSCO Container L.</carrier_name>
+															<destination>
+																<_object>/shipment_node</_object>
+																<place>
+																	<_object>/place</_object>
+																	<address>
+																		<_object>/address</_object>
+																		<city>Oakland</city>
+																		<country>United States</country>
+																		<country_code>US</country_code>
+																		<ref>id-41584</ref>
+																		<state>CA</state>
+																		<street_address null="true" />
+																		<street_address2 null="true" />
+																		<timezone>America/Los_Angeles</timezone>
+																		<unlocode>USOAK</unlocode>
+																		<zip null="true" />
+																	</address>
+																	<details>
+																		<element>
+																			<_object>/ocean/railport</_object>
+																			<port_code>2811</port_code>
+																		</element>
+																		<element>
+																			<_object>/trucking/port</_object>
+																			<port_code>2811</port_code>
+																		</element>
+																		<element>
+																			<_object>/ocean/port</_object>
+																			<port_code>2811</port_code>
+																		</element>
+																	</details>
+																	<name>Oakland, CA</name>
+																</place>
+																<tags>
+																	<element>port_of_unloading</element>
+																	<element>fmc_port_of_unloading</element>
+																</tags>
+																<terminal null="true" />
+															</destination>
+															<estimated_arrival_date>2020-01-28T18:00:00.000-08:00
+															</estimated_arrival_date>
+															<estimated_departure_date>2020-01-05T03:00:00.000+08:00
+															</estimated_departure_date>
+															<id>6204299</id>
+															<ocean_leg>
+																<_object>/ocean/shipment_leg</_object>
+																<container_legs>
+																	<_object>/api/refs/collection</_object>
+																	<link>https://api.flexport.com/ocean/shipment_container_legs?f.leg.id=6204299
+																	</link>
+																	<ref_type>/ocean/shipment_container_leg</ref_type>
+																</container_legs>
+																<scac_code>COSU</scac_code>
+																<vessel_imo>9516430</vessel_imo>
+																<vessel_name>COSCO NETHERLANDS</vessel_name>
+																<voyage_number>032E</voyage_number>
+															</ocean_leg>
+															<origin>
+																<_object>/shipment_node</_object>
+																<place>
+																	<_object>/place</_object>
+																	<address>
+																		<_object>/address</_object>
+																		<city>Shanghai </city>
+																		<country>China</country>
+																		<country_code>CN</country_code>
+																		<ref>id-39042</ref>
+																		<state null="true" />
+																		<street_address null="true" />
+																		<street_address2 null="true" />
+																		<timezone>Asia/Shanghai</timezone>
+																		<unlocode>CNSHG</unlocode>
+																		<zip null="true" />
+																	</address>
+																	<details>
+																		<element>
+																			<_object>/trucking/port</_object>
+																			<port_code>57035</port_code>
+																		</element>
+																		<element>
+																			<_object>/ocean/port</_object>
+																			<port_code>57035</port_code>
+																		</element>
+																	</details>
+																	<name>Shanghai, China</name>
+																</place>
+																<tags>
+																	<element>port_of_loading</element>
+																</tags>
+																<terminal null="true" />
+															</origin>
+															<rail_leg null="true" />
+															<shipment>
+																<_object>/api/refs/object</_object>
+																<id>345678</id>
+																<link>https://api.flexport.com/shipments/345678</link>
+																<ref_type>/shipment</ref_type>
+															</shipment>
+															<transportation_mode>ocean</transportation_mode>
+															<trucking_leg null="true" />
+														</leg>
+														<shipment_container>
+															<_object>/api/refs/object</_object>
+															<id>326755</id>
+															<link>https://api.flexport.com/ocean/shipment_containers/326755
+															</link>
+															<ref_type>/ocean/shipment_container</ref_type>
+														</shipment_container>
+													</element>
+												</data>
+												<next null="true" />
+												<prev null="true" />
+												<total_count>1</total_count>
+											</container_legs>
+											<scac_code>COSU</scac_code>
+											<vessel_imo>9516430</vessel_imo>
+											<vessel_name>COSCO NETHERLANDS</vessel_name>
+											<voyage_number>032E</voyage_number>
+										</ocean_leg>
+										<origin>
+											<_object>/shipment_node</_object>
+											<place>
+												<_object>/place</_object>
+												<address>
+													<_object>/address</_object>
+													<city>Shanghai </city>
+													<country>China</country>
+													<country_code>CN</country_code>
+													<ref>id-39042</ref>
+													<state null="true" />
+													<street_address null="true" />
+													<street_address2 null="true" />
+													<timezone>Asia/Shanghai</timezone>
+													<unlocode>CNSHG</unlocode>
+													<zip null="true" />
+												</address>
+												<details>
+													<element>
+														<_object>/trucking/port</_object>
+														<port_code>57035</port_code>
+													</element>
+													<element>
+														<_object>/ocean/port</_object>
+														<port_code>57035</port_code>
+													</element>
+												</details>
+												<name>Shanghai, China</name>
+											</place>
+											<tags>
+												<element>port_of_loading</element>
+											</tags>
+											<terminal null="true" />
+										</origin>
+										<rail_leg null="true" />
+										<shipment>
+											<_object>/api/refs/object</_object>
+											<id>345678</id>
+											<link>https://api.flexport.com/shipments/345678</link>
+											<ref_type>/shipment</ref_type>
+										</shipment>
+										<transportation_mode>ocean</transportation_mode>
+										<trucking_leg null="true" />
+									</element>
+									<element>
+										<_object>/shipment_leg</_object>
+										<actual_arrival_date>2020-02-01T12:00:00.000-07:00
+										</actual_arrival_date>
+										<actual_departure_date>2020-01-30T12:00:00.000-08:00
+										</actual_departure_date>
+										<additional_dates />
+										<air_leg null="true" />
+										<cargo_ready_date null="true" />
+										<carrier_name>COSCO Container L.</carrier_name>
+										<destination>
+											<_object>/shipment_node</_object>
+											<place>
+												<_object>/place</_object>
+												<address>
+													<_object>/address</_object>
+													<city>Salt Lake City</city>
+													<country>United States</country>
+													<country_code>US</country_code>
+													<ref>id-41671</ref>
+													<state>UT</state>
+													<street_address null="true" />
+													<street_address2 null="true" />
+													<timezone>America/Denver</timezone>
+													<unlocode>USSLC</unlocode>
+													<zip null="true" />
+												</address>
+												<details>
+													<element>
+														<_object>/ocean/railport</_object>
+														<port_code>3303</port_code>
+													</element>
+													<element>
+														<_object>/trucking/port</_object>
+														<port_code>3303</port_code>
+													</element>
+												</details>
+												<name>Salt Lake City, UT</name>
+											</place>
+											<tags>
+												<element>customs_entry</element>
+												<element>place_of_delivery</element>
+											</tags>
+											<terminal>
+												<_object>/shipment_node/terminal</_object>
+												<address>
+													<_object>/address</_object>
+													<city>SALT LAKE CITY</city>
+													<country>United States</country>
+													<country_code>US</country_code>
+													<ref>id-73675</ref>
+													<state>UT</state>
+													<street_address>1045 S 5500 W</street_address>
+													<street_address2 null="true" />
+													<timezone>America/Denver</timezone>
+													<unlocode null="true" />
+													<zip>84104</zip>
+												</address>
+												<name>UNION PACIFIC RAILROAD</name>
+											</terminal>
+										</destination>
+										<estimated_arrival_date>2020-02-01T08:00:00.000-07:00
+										</estimated_arrival_date>
+										<estimated_departure_date>2020-01-31T12:00:00.000-08:00
+										</estimated_departure_date>
+										<id>6204300</id>
+										<ocean_leg null="true" />
+										<origin>
+											<_object>/shipment_node</_object>
+											<place>
+												<_object>/place</_object>
+												<address>
+													<_object>/address</_object>
+													<city>Oakland</city>
+													<country>United States</country>
+													<country_code>US</country_code>
+													<ref>id-41584</ref>
+													<state>CA</state>
+													<street_address null="true" />
+													<street_address2 null="true" />
+													<timezone>America/Los_Angeles</timezone>
+													<unlocode>USOAK</unlocode>
+													<zip null="true" />
+												</address>
+												<details>
+													<element>
+														<_object>/ocean/railport</_object>
+														<port_code>2811</port_code>
+													</element>
+													<element>
+														<_object>/trucking/port</_object>
+														<port_code>2811</port_code>
+													</element>
+													<element>
+														<_object>/ocean/port</_object>
+														<port_code>2811</port_code>
+													</element>
+												</details>
+												<name>Oakland, CA</name>
+											</place>
+											<tags>
+												<element>port_of_unloading</element>
+												<element>fmc_port_of_unloading</element>
+											</tags>
+											<terminal null="true" />
+										</origin>
+										<rail_leg>
+											<_object>/rail/shipment_leg</_object>
+											<container_legs>
+												<_object>/api/refs/collection</_object>
+												<link>https://api.flexport.com/ocean/shipment_container_legs?f.leg.id=6204300
+												</link>
+												<ref_type>/ocean/shipment_container_leg</ref_type>
+											</container_legs>
+										</rail_leg>
+										<shipment>
+											<_object>/api/refs/object</_object>
+											<id>345678</id>
+											<link>https://api.flexport.com/shipments/345678</link>
+											<ref_type>/shipment</ref_type>
+										</shipment>
+										<transportation_mode>rail</transportation_mode>
+										<trucking_leg null="true" />
+									</element>
+									<element>
+										<_object>/shipment_leg</_object>
+										<actual_arrival_date>2020-02-07T12:00:00.000-07:00
+										</actual_arrival_date>
+										<actual_departure_date>2020-02-03T23:01:00.000-07:00
+										</actual_departure_date>
+										<additional_dates>
+											<delivery_appointment_scheduled_for_date>2020-02-07T12:00:00.000-07:00
+											</delivery_appointment_scheduled_for_date>
+											<delivery_completed>2020-02-07T12:00:00.000-07:00
+											</delivery_completed>
+										</additional_dates>
+										<air_leg null="true" />
+										<cargo_ready_date null="true" />
+										<carrier_name>Specialized Rail Service</carrier_name>
+										<destination>
+											<_object>/shipment_node</_object>
+											<place>
+												<_object>/place</_object>
+												<address>
+													<_object>/address</_object>
+													<city>Salt Lake City</city>
+													<country>United States</country>
+													<country_code>US</country_code>
+													<ref>id-273478</ref>
+													<state>Utah</state>
+													<street_address>5995 W 300 South Street</street_address>
+													<street_address2 null="true" />
+													<timezone>America/Denver</timezone>
+													<unlocode null="true" />
+													<zip>84104</zip>
+												</address>
+												<details />
+												<name>COSTCO WHOLESALE DC 584</name>
+											</place>
+											<tags>
+												<element>destination_address</element>
+											</tags>
+											<terminal null="true" />
+										</destination>
+										<estimated_arrival_date>2020-02-07T12:00:00.000-07:00
+										</estimated_arrival_date>
+										<estimated_departure_date>2020-02-04T12:00:00.000-07:00
+										</estimated_departure_date>
+										<id>5984268</id>
+										<ocean_leg null="true" />
+										<origin>
+											<_object>/shipment_node</_object>
+											<place>
+												<_object>/place</_object>
+												<address>
+													<_object>/address</_object>
+													<city>Salt Lake City</city>
+													<country>United States</country>
+													<country_code>US</country_code>
+													<ref>id-41671</ref>
+													<state>UT</state>
+													<street_address null="true" />
+													<street_address2 null="true" />
+													<timezone>America/Denver</timezone>
+													<unlocode>USSLC</unlocode>
+													<zip null="true" />
+												</address>
+												<details>
+													<element>
+														<_object>/ocean/railport</_object>
+														<port_code>3303</port_code>
+													</element>
+													<element>
+														<_object>/trucking/port</_object>
+														<port_code>3303</port_code>
+													</element>
+												</details>
+												<name>Salt Lake City, UT</name>
+											</place>
+											<tags>
+												<element>customs_entry</element>
+												<element>place_of_delivery</element>
+											</tags>
+											<terminal>
+												<_object>/shipment_node/terminal</_object>
+												<address>
+													<_object>/address</_object>
+													<city>SALT LAKE CITY</city>
+													<country>United States</country>
+													<country_code>US</country_code>
+													<ref>id-73675</ref>
+													<state>UT</state>
+													<street_address>1045 S 5500 W</street_address>
+													<street_address2 null="true" />
+													<timezone>America/Denver</timezone>
+													<unlocode null="true" />
+													<zip>84104</zip>
+												</address>
+												<name>UNION PACIFIC RAILROAD</name>
+											</terminal>
+										</origin>
+										<rail_leg null="true" />
+										<shipment>
+											<_object>/api/refs/object</_object>
+											<id>345678</id>
+											<link>https://api.flexport.com/shipments/345678</link>
+											<ref_type>/shipment</ref_type>
+										</shipment>
+										<transportation_mode>truck</transportation_mode>
+										<trucking_leg>
+											<_object>/trucking/shipment_leg</_object>
+											<container_legs>
+												<_object>/api/collections/paginated</_object>
+												<data>
+													<element>
+														<_object>/ocean/shipment_container_leg</_object>
+														<dates />
+														<id>1283857</id>
+														<leg>
+															<_object>/shipment_leg</_object>
+															<actual_arrival_date>2020-02-07T12:00:00.000-07:00
+															</actual_arrival_date>
+															<actual_departure_date>2020-02-03T23:01:00.000-07:00
+															</actual_departure_date>
+															<additional_dates>
+																<delivery_appointment_scheduled_for_date>2020-02-07T12:00:00.000-07:00
+																</delivery_appointment_scheduled_for_date>
+																<delivery_completed>2020-02-07T12:00:00.000-07:00
+																</delivery_completed>
+															</additional_dates>
+															<air_leg null="true" />
+															<cargo_ready_date null="true" />
+															<carrier_name>Specialized Rail Service</carrier_name>
+															<destination>
+																<_object>/shipment_node</_object>
+																<place>
+																	<_object>/place</_object>
+																	<address>
+																		<_object>/address</_object>
+																		<city>Salt Lake City</city>
+																		<country>United States</country>
+																		<country_code>US</country_code>
+																		<ref>id-273478</ref>
+																		<state>Utah</state>
+																		<street_address>5995 W 300 South Street
+																		</street_address>
+																		<street_address2 null="true" />
+																		<timezone>America/Denver</timezone>
+																		<unlocode null="true" />
+																		<zip>84104</zip>
+																	</address>
+																	<details />
+																	<name>COSTCO WHOLESALE DC 584</name>
+																</place>
+																<tags>
+																	<element>destination_address</element>
+																</tags>
+																<terminal null="true" />
+															</destination>
+															<estimated_arrival_date>2020-02-07T12:00:00.000-07:00
+															</estimated_arrival_date>
+															<estimated_departure_date>2020-02-04T12:00:00.000-07:00
+															</estimated_departure_date>
+															<id>5984268</id>
+															<ocean_leg null="true" />
+															<origin>
+																<_object>/shipment_node</_object>
+																<place>
+																	<_object>/place</_object>
+																	<address>
+																		<_object>/address</_object>
+																		<city>Salt Lake City</city>
+																		<country>United States</country>
+																		<country_code>US</country_code>
+																		<ref>id-41671</ref>
+																		<state>UT</state>
+																		<street_address null="true" />
+																		<street_address2 null="true" />
+																		<timezone>America/Denver</timezone>
+																		<unlocode>USSLC</unlocode>
+																		<zip null="true" />
+																	</address>
+																	<details>
+																		<element>
+																			<_object>/ocean/railport</_object>
+																			<port_code>3303</port_code>
+																		</element>
+																		<element>
+																			<_object>/trucking/port</_object>
+																			<port_code>3303</port_code>
+																		</element>
+																	</details>
+																	<name>Salt Lake City, UT</name>
+																</place>
+																<tags>
+																	<element>customs_entry</element>
+																	<element>place_of_delivery</element>
+																</tags>
+																<terminal>
+																	<_object>/shipment_node/terminal</_object>
+																	<address>
+																		<_object>/address</_object>
+																		<city>SALT LAKE CITY</city>
+																		<country>United States</country>
+																		<country_code>US</country_code>
+																		<ref>id-73675</ref>
+																		<state>UT</state>
+																		<street_address>1045 S 5500 W</street_address>
+																		<street_address2 null="true" />
+																		<timezone>America/Denver</timezone>
+																		<unlocode null="true" />
+																		<zip>84104</zip>
+																	</address>
+																	<name>UNION PACIFIC RAILROAD</name>
+																</terminal>
+															</origin>
+															<rail_leg null="true" />
+															<shipment>
+																<_object>/api/refs/object</_object>
+																<id>345678</id>
+																<link>https://api.flexport.com/shipments/345678</link>
+																<ref_type>/shipment</ref_type>
+															</shipment>
+															<transportation_mode>truck</transportation_mode>
+															<trucking_leg>
+																<_object>/trucking/shipment_leg</_object>
+																<container_legs>
+																	<_object>/api/refs/collection</_object>
+																	<link>https://api.flexport.com/ocean/shipment_container_legs?f.leg.id=5984268
+																	</link>
+																	<ref_type>/ocean/shipment_container_leg</ref_type>
+																</container_legs>
+																<pieces null="true" />
+																<service_type>drayage</service_type>
+																<tracking_number null="true" />
+															</trucking_leg>
+														</leg>
+														<shipment_container>
+															<_object>/api/refs/object</_object>
+															<id>326755</id>
+															<link>https://api.flexport.com/ocean/shipment_containers/326755
+															</link>
+															<ref_type>/ocean/shipment_container</ref_type>
+														</shipment_container>
+													</element>
+												</data>
+												<next null="true" />
+												<prev null="true" />
+												<total_count>1</total_count>
+											</container_legs>
+											<pieces null="true" />
+											<service_type>drayage</service_type>
+											<tracking_number null="true" />
+										</trucking_leg>
+									</element>
+								</data>
+								<next null="true" />
+								<prev null="true" />
+								<total_count>5</total_count>
+							</legs>
+							<metadata>
+								<product_division>
+									<element>REF</element>
+								</product_division>
+							</metadata>
+							<name>COSTCO - BRL1932931 KP191116000083 DNL22201911160055</name>
+							<ocean_shipment>
+								<_object>/ocean/shipment</_object>
+								<carrier_booking_number>COSU6124992140</carrier_booking_number>
+								<containers>
+									<_object>/api/collections/paginated</_object>
+									<data>
+										<element>
+											<_object>/ocean/shipment_container</_object>
+											<actual_arrival_date>2020-02-01T12:00:00.000-07:00
+											</actual_arrival_date>
+											<actual_delivery_date>2020-02-07T12:00:00.000-07:00
+											</actual_delivery_date>
+											<actual_departure_date>2019-12-29T12:00:00.000+08:00
+											</actual_departure_date>
+											<actual_pickup_date>2019-12-21T12:00:00.000+08:00
+											</actual_pickup_date>
+											<available_for_pickup_date
+												null="true" />
+											<cargo_ready_date>2019-12-19</cargo_ready_date>
+											<container_legs>
+												<_object>/api/collections/paginated</_object>
+												<data>
+													<element>
+														<_object>/ocean/shipment_container_leg</_object>
+														<dates />
+														<id>1283853</id>
+														<leg>
+															<_object>/shipment_leg</_object>
+															<actual_arrival_date>2019-12-21T12:00:00.000+08:00
+															</actual_arrival_date>
+															<actual_departure_date>2019-12-21T12:00:00.000+08:00
+															</actual_departure_date>
+															<additional_dates>
+																<cargo_ready_date>2019-12-19</cargo_ready_date>
+																<delivery_appointment_scheduled_for_date>2019-12-22T12:00:00.000+08:00
+																</delivery_appointment_scheduled_for_date>
+																<delivery_completed>2019-12-21T12:00:00.000+08:00
+																</delivery_completed>
+															</additional_dates>
+															<air_leg null="true" />
+															<cargo_ready_date>2019-12-19</cargo_ready_date>
+															<carrier_name null="true" />
+															<destination>
+																<_object>/shipment_node</_object>
+																<place>
+																	<_object>/place</_object>
+																	<address>
+																		<_object>/address</_object>
+																		<city>Wuhu</city>
+																		<country>China</country>
+																		<country_code>CN</country_code>
+																		<ref>id-39047</ref>
+																		<state null="true" />
+																		<street_address null="true" />
+																		<street_address2 null="true" />
+																		<timezone>Asia/Shanghai</timezone>
+																		<unlocode>CNWHI</unlocode>
+																		<zip null="true" />
+																	</address>
+																	<details>
+																		<element>
+																			<_object>/trucking/port</_object>
+																			<port_code>57000</port_code>
+																		</element>
+																		<element>
+																			<_object>/ocean/port</_object>
+																			<port_code>57000</port_code>
+																		</element>
+																	</details>
+																	<name>Wuhu</name>
+																</place>
+																<tags />
+																<terminal null="true" />
+															</destination>
+															<estimated_arrival_date>2019-12-22T12:00:00.000+08:00
+															</estimated_arrival_date>
+															<estimated_departure_date>2019-12-22T12:00:00.000+08:00
+															</estimated_departure_date>
+															<id>5984267</id>
+															<ocean_leg null="true" />
+															<origin>
+																<_object>/shipment_node</_object>
+																<place>
+																	<_object>/place</_object>
+																	<address>
+																		<_object>/address</_object>
+																		<city>Hefei</city>
+																		<country>China</country>
+																		<country_code>CN</country_code>
+																		<ref>id-230309</ref>
+																		<state>Anhui</state>
+																		<street_address>#176 JINXIU ROAD,HEFEI ECONOMY AND
+																			TECHNOLOGY DEVELOPMENT AREA</street_address>
+																		<street_address2 null="true" />
+																		<timezone>Asia/Shanghai</timezone>
+																		<unlocode null="true" />
+																		<zip>230601</zip>
+																	</address>
+																	<details />
+																	<name>Hefei Refrigerator Co. Ltd</name>
+																</place>
+																<tags>
+																	<element>origin_address</element>
+																</tags>
+																<terminal null="true" />
+															</origin>
+															<rail_leg null="true" />
+															<shipment>
+																<_object>/api/refs/object</_object>
+																<id>345678</id>
+																<link>https://api.flexport.com/shipments/345678</link>
+																<ref_type>/shipment</ref_type>
+															</shipment>
+															<transportation_mode>truck</transportation_mode>
+															<trucking_leg>
+																<_object>/trucking/shipment_leg</_object>
+																<container_legs>
+																	<_object>/api/refs/collection</_object>
+																	<link>https://api.flexport.com/ocean/shipment_container_legs?f.leg.id=5984267
+																	</link>
+																	<ref_type>/ocean/shipment_container_leg</ref_type>
+																</container_legs>
+																<pieces null="true" />
+																<service_type>drayage</service_type>
+																<tracking_number null="true" />
+															</trucking_leg>
+														</leg>
+														<shipment_container>
+															<_object>/api/refs/object</_object>
+															<id>326755</id>
+															<link>https://api.flexport.com/ocean/shipment_containers/326755
+															</link>
+															<ref_type>/ocean/shipment_container</ref_type>
+														</shipment_container>
+													</element>
+													<element>
+														<_object>/ocean/shipment_container_leg</_object>
+														<dates />
+														<id>1283854</id>
+														<leg>
+															<_object>/shipment_leg</_object>
+															<actual_arrival_date>2020-01-04T12:00:00.000+08:00
+															</actual_arrival_date>
+															<actual_departure_date>2019-12-29T12:00:00.000+08:00
+															</actual_departure_date>
+															<additional_dates />
+															<air_leg null="true" />
+															<cargo_ready_date null="true" />
+															<carrier_name>COSCO Container L.</carrier_name>
+															<destination>
+																<_object>/shipment_node</_object>
+																<place>
+																	<_object>/place</_object>
+																	<address>
+																		<_object>/address</_object>
+																		<city>Shanghai </city>
+																		<country>China</country>
+																		<country_code>CN</country_code>
+																		<ref>id-39042</ref>
+																		<state null="true" />
+																		<street_address null="true" />
+																		<street_address2 null="true" />
+																		<timezone>Asia/Shanghai</timezone>
+																		<unlocode>CNSHG</unlocode>
+																		<zip null="true" />
+																	</address>
+																	<details>
+																		<element>
+																			<_object>/trucking/port</_object>
+																			<port_code>57035</port_code>
+																		</element>
+																		<element>
+																			<_object>/ocean/port</_object>
+																			<port_code>57035</port_code>
+																		</element>
+																	</details>
+																	<name>Shanghai, China</name>
+																</place>
+																<tags>
+																	<element>port_of_loading</element>
+																</tags>
+																<terminal null="true" />
+															</destination>
+															<estimated_arrival_date>2020-01-04T12:00:00.000+08:00
+															</estimated_arrival_date>
+															<estimated_departure_date>2019-12-26T12:00:00.000+08:00
+															</estimated_departure_date>
+															<id>6204298</id>
+															<ocean_leg>
+																<_object>/ocean/shipment_leg</_object>
+																<container_legs>
+																	<_object>/api/refs/collection</_object>
+																	<link>https://api.flexport.com/ocean/shipment_container_legs?f.leg.id=6204298
+																	</link>
+																	<ref_type>/ocean/shipment_container_leg</ref_type>
+																</container_legs>
+																<scac_code>COSU</scac_code>
+																<vessel_imo null="true" />
+																<vessel_name>FAN YA TAI CANG</vessel_name>
+																<voyage_number>L378E</voyage_number>
+															</ocean_leg>
+															<origin>
+																<_object>/shipment_node</_object>
+																<place>
+																	<_object>/place</_object>
+																	<address>
+																		<_object>/address</_object>
+																		<city>Wuhu</city>
+																		<country>China</country>
+																		<country_code>CN</country_code>
+																		<ref>id-39047</ref>
+																		<state null="true" />
+																		<street_address null="true" />
+																		<street_address2 null="true" />
+																		<timezone>Asia/Shanghai</timezone>
+																		<unlocode>CNWHI</unlocode>
+																		<zip null="true" />
+																	</address>
+																	<details>
+																		<element>
+																			<_object>/trucking/port</_object>
+																			<port_code>57000</port_code>
+																		</element>
+																		<element>
+																			<_object>/ocean/port</_object>
+																			<port_code>57000</port_code>
+																		</element>
+																	</details>
+																	<name>Wuhu</name>
+																</place>
+																<tags />
+																<terminal null="true" />
+															</origin>
+															<rail_leg null="true" />
+															<shipment>
+																<_object>/api/refs/object</_object>
+																<id>345678</id>
+																<link>https://api.flexport.com/shipments/345678</link>
+																<ref_type>/shipment</ref_type>
+															</shipment>
+															<transportation_mode>ocean</transportation_mode>
+															<trucking_leg null="true" />
+														</leg>
+														<shipment_container>
+															<_object>/api/refs/object</_object>
+															<id>326755</id>
+															<link>https://api.flexport.com/ocean/shipment_containers/326755
+															</link>
+															<ref_type>/ocean/shipment_container</ref_type>
+														</shipment_container>
+													</element>
+													<element>
+														<_object>/ocean/shipment_container_leg</_object>
+														<dates>
+															<actual_loaded_on_board_date>2020-01-04T19:00:00.000Z
+															</actual_loaded_on_board_date>
+														</dates>
+														<id>1283855</id>
+														<leg>
+															<_object>/shipment_leg</_object>
+															<actual_arrival_date>2020-01-28T12:00:00.000-08:00
+															</actual_arrival_date>
+															<actual_departure_date>2020-01-05T12:00:00.000+08:00
+															</actual_departure_date>
+															<additional_dates />
+															<air_leg null="true" />
+															<cargo_ready_date null="true" />
+															<carrier_name>COSCO Container L.</carrier_name>
+															<destination>
+																<_object>/shipment_node</_object>
+																<place>
+																	<_object>/place</_object>
+																	<address>
+																		<_object>/address</_object>
+																		<city>Oakland</city>
+																		<country>United States</country>
+																		<country_code>US</country_code>
+																		<ref>id-41584</ref>
+																		<state>CA</state>
+																		<street_address null="true" />
+																		<street_address2 null="true" />
+																		<timezone>America/Los_Angeles</timezone>
+																		<unlocode>USOAK</unlocode>
+																		<zip null="true" />
+																	</address>
+																	<details>
+																		<element>
+																			<_object>/ocean/railport</_object>
+																			<port_code>2811</port_code>
+																		</element>
+																		<element>
+																			<_object>/trucking/port</_object>
+																			<port_code>2811</port_code>
+																		</element>
+																		<element>
+																			<_object>/ocean/port</_object>
+																			<port_code>2811</port_code>
+																		</element>
+																	</details>
+																	<name>Oakland, CA</name>
+																</place>
+																<tags>
+																	<element>port_of_unloading</element>
+																	<element>fmc_port_of_unloading</element>
+																</tags>
+																<terminal null="true" />
+															</destination>
+															<estimated_arrival_date>2020-01-28T18:00:00.000-08:00
+															</estimated_arrival_date>
+															<estimated_departure_date>2020-01-05T03:00:00.000+08:00
+															</estimated_departure_date>
+															<id>6204299</id>
+															<ocean_leg>
+																<_object>/ocean/shipment_leg</_object>
+																<container_legs>
+																	<_object>/api/refs/collection</_object>
+																	<link>https://api.flexport.com/ocean/shipment_container_legs?f.leg.id=6204299
+																	</link>
+																	<ref_type>/ocean/shipment_container_leg</ref_type>
+																</container_legs>
+																<scac_code>COSU</scac_code>
+																<vessel_imo>9516430</vessel_imo>
+																<vessel_name>COSCO NETHERLANDS</vessel_name>
+																<voyage_number>032E</voyage_number>
+															</ocean_leg>
+															<origin>
+																<_object>/shipment_node</_object>
+																<place>
+																	<_object>/place</_object>
+																	<address>
+																		<_object>/address</_object>
+																		<city>Shanghai </city>
+																		<country>China</country>
+																		<country_code>CN</country_code>
+																		<ref>id-39042</ref>
+																		<state null="true" />
+																		<street_address null="true" />
+																		<street_address2 null="true" />
+																		<timezone>Asia/Shanghai</timezone>
+																		<unlocode>CNSHG</unlocode>
+																		<zip null="true" />
+																	</address>
+																	<details>
+																		<element>
+																			<_object>/trucking/port</_object>
+																			<port_code>57035</port_code>
+																		</element>
+																		<element>
+																			<_object>/ocean/port</_object>
+																			<port_code>57035</port_code>
+																		</element>
+																	</details>
+																	<name>Shanghai, China</name>
+																</place>
+																<tags>
+																	<element>port_of_loading</element>
+																</tags>
+																<terminal null="true" />
+															</origin>
+															<rail_leg null="true" />
+															<shipment>
+																<_object>/api/refs/object</_object>
+																<id>345678</id>
+																<link>https://api.flexport.com/shipments/345678</link>
+																<ref_type>/shipment</ref_type>
+															</shipment>
+															<transportation_mode>ocean</transportation_mode>
+															<trucking_leg null="true" />
+														</leg>
+														<shipment_container>
+															<_object>/api/refs/object</_object>
+															<id>326755</id>
+															<link>https://api.flexport.com/ocean/shipment_containers/326755
+															</link>
+															<ref_type>/ocean/shipment_container</ref_type>
+														</shipment_container>
+													</element>
+													<element>
+														<_object>/ocean/shipment_container_leg</_object>
+														<dates>
+															<actual_loaded_on_board_date>2020-01-30T08:00:00.000Z
+															</actual_loaded_on_board_date>
+														</dates>
+														<id>1283856</id>
+														<leg>
+															<_object>/shipment_leg</_object>
+															<actual_arrival_date>2020-02-01T12:00:00.000-07:00
+															</actual_arrival_date>
+															<actual_departure_date>2020-01-30T12:00:00.000-08:00
+															</actual_departure_date>
+															<additional_dates />
+															<air_leg null="true" />
+															<cargo_ready_date null="true" />
+															<carrier_name>COSCO Container L.</carrier_name>
+															<destination>
+																<_object>/shipment_node</_object>
+																<place>
+																	<_object>/place</_object>
+																	<address>
+																		<_object>/address</_object>
+																		<city>Salt Lake City</city>
+																		<country>United States</country>
+																		<country_code>US</country_code>
+																		<ref>id-41671</ref>
+																		<state>UT</state>
+																		<street_address null="true" />
+																		<street_address2 null="true" />
+																		<timezone>America/Denver</timezone>
+																		<unlocode>USSLC</unlocode>
+																		<zip null="true" />
+																	</address>
+																	<details>
+																		<element>
+																			<_object>/ocean/railport</_object>
+																			<port_code>3303</port_code>
+																		</element>
+																		<element>
+																			<_object>/trucking/port</_object>
+																			<port_code>3303</port_code>
+																		</element>
+																	</details>
+																	<name>Salt Lake City, UT</name>
+																</place>
+																<tags>
+																	<element>customs_entry</element>
+																	<element>place_of_delivery</element>
+																</tags>
+																<terminal>
+																	<_object>/shipment_node/terminal</_object>
+																	<address>
+																		<_object>/address</_object>
+																		<city>SALT LAKE CITY</city>
+																		<country>United States</country>
+																		<country_code>US</country_code>
+																		<ref>id-73675</ref>
+																		<state>UT</state>
+																		<street_address>1045 S 5500 W</street_address>
+																		<street_address2 null="true" />
+																		<timezone>America/Denver</timezone>
+																		<unlocode null="true" />
+																		<zip>84104</zip>
+																	</address>
+																	<name>UNION PACIFIC RAILROAD</name>
+																</terminal>
+															</destination>
+															<estimated_arrival_date>2020-02-01T08:00:00.000-07:00
+															</estimated_arrival_date>
+															<estimated_departure_date>2020-01-31T12:00:00.000-08:00
+															</estimated_departure_date>
+															<id>6204300</id>
+															<ocean_leg null="true" />
+															<origin>
+																<_object>/shipment_node</_object>
+																<place>
+																	<_object>/place</_object>
+																	<address>
+																		<_object>/address</_object>
+																		<city>Oakland</city>
+																		<country>United States</country>
+																		<country_code>US</country_code>
+																		<ref>id-41584</ref>
+																		<state>CA</state>
+																		<street_address null="true" />
+																		<street_address2 null="true" />
+																		<timezone>America/Los_Angeles</timezone>
+																		<unlocode>USOAK</unlocode>
+																		<zip null="true" />
+																	</address>
+																	<details>
+																		<element>
+																			<_object>/ocean/railport</_object>
+																			<port_code>2811</port_code>
+																		</element>
+																		<element>
+																			<_object>/trucking/port</_object>
+																			<port_code>2811</port_code>
+																		</element>
+																		<element>
+																			<_object>/ocean/port</_object>
+																			<port_code>2811</port_code>
+																		</element>
+																	</details>
+																	<name>Oakland, CA</name>
+																</place>
+																<tags>
+																	<element>port_of_unloading</element>
+																	<element>fmc_port_of_unloading</element>
+																</tags>
+																<terminal null="true" />
+															</origin>
+															<rail_leg>
+																<_object>/rail/shipment_leg</_object>
+																<container_legs>
+																	<_object>/api/refs/collection</_object>
+																	<link>https://api.flexport.com/ocean/shipment_container_legs?f.leg.id=6204300
+																	</link>
+																	<ref_type>/ocean/shipment_container_leg</ref_type>
+																</container_legs>
+															</rail_leg>
+															<shipment>
+																<_object>/api/refs/object</_object>
+																<id>345678</id>
+																<link>https://api.flexport.com/shipments/345678</link>
+																<ref_type>/shipment</ref_type>
+															</shipment>
+															<transportation_mode>rail</transportation_mode>
+															<trucking_leg null="true" />
+														</leg>
+														<shipment_container>
+															<_object>/api/refs/object</_object>
+															<id>326755</id>
+															<link>https://api.flexport.com/ocean/shipment_containers/326755
+															</link>
+															<ref_type>/ocean/shipment_container</ref_type>
+														</shipment_container>
+													</element>
+													<element>
+														<_object>/ocean/shipment_container_leg</_object>
+														<dates />
+														<id>1283857</id>
+														<leg>
+															<_object>/shipment_leg</_object>
+															<actual_arrival_date>2020-02-07T12:00:00.000-07:00
+															</actual_arrival_date>
+															<actual_departure_date>2020-02-03T23:01:00.000-07:00
+															</actual_departure_date>
+															<additional_dates>
+																<delivery_appointment_scheduled_for_date>2020-02-07T12:00:00.000-07:00
+																</delivery_appointment_scheduled_for_date>
+																<delivery_completed>2020-02-07T12:00:00.000-07:00
+																</delivery_completed>
+															</additional_dates>
+															<air_leg null="true" />
+															<cargo_ready_date null="true" />
+															<carrier_name>Specialized Rail Service</carrier_name>
+															<destination>
+																<_object>/shipment_node</_object>
+																<place>
+																	<_object>/place</_object>
+																	<address>
+																		<_object>/address</_object>
+																		<city>Salt Lake City</city>
+																		<country>United States</country>
+																		<country_code>US</country_code>
+																		<ref>id-273478</ref>
+																		<state>Utah</state>
+																		<street_address>5995 W 300 South Street
+																		</street_address>
+																		<street_address2 null="true" />
+																		<timezone>America/Denver</timezone>
+																		<unlocode null="true" />
+																		<zip>84104</zip>
+																	</address>
+																	<details />
+																	<name>COSTCO WHOLESALE DC 584</name>
+																</place>
+																<tags>
+																	<element>destination_address</element>
+																</tags>
+																<terminal null="true" />
+															</destination>
+															<estimated_arrival_date>2020-02-07T12:00:00.000-07:00
+															</estimated_arrival_date>
+															<estimated_departure_date>2020-02-04T12:00:00.000-07:00
+															</estimated_departure_date>
+															<id>5984268</id>
+															<ocean_leg null="true" />
+															<origin>
+																<_object>/shipment_node</_object>
+																<place>
+																	<_object>/place</_object>
+																	<address>
+																		<_object>/address</_object>
+																		<city>Salt Lake City</city>
+																		<country>United States</country>
+																		<country_code>US</country_code>
+																		<ref>id-41671</ref>
+																		<state>UT</state>
+																		<street_address null="true" />
+																		<street_address2 null="true" />
+																		<timezone>America/Denver</timezone>
+																		<unlocode>USSLC</unlocode>
+																		<zip null="true" />
+																	</address>
+																	<details>
+																		<element>
+																			<_object>/ocean/railport</_object>
+																			<port_code>3303</port_code>
+																		</element>
+																		<element>
+																			<_object>/trucking/port</_object>
+																			<port_code>3303</port_code>
+																		</element>
+																	</details>
+																	<name>Salt Lake City, UT</name>
+																</place>
+																<tags>
+																	<element>customs_entry</element>
+																	<element>place_of_delivery</element>
+																</tags>
+																<terminal>
+																	<_object>/shipment_node/terminal</_object>
+																	<address>
+																		<_object>/address</_object>
+																		<city>SALT LAKE CITY</city>
+																		<country>United States</country>
+																		<country_code>US</country_code>
+																		<ref>id-73675</ref>
+																		<state>UT</state>
+																		<street_address>1045 S 5500 W</street_address>
+																		<street_address2 null="true" />
+																		<timezone>America/Denver</timezone>
+																		<unlocode null="true" />
+																		<zip>84104</zip>
+																	</address>
+																	<name>UNION PACIFIC RAILROAD</name>
+																</terminal>
+															</origin>
+															<rail_leg null="true" />
+															<shipment>
+																<_object>/api/refs/object</_object>
+																<id>345678</id>
+																<link>https://api.flexport.com/shipments/345678</link>
+																<ref_type>/shipment</ref_type>
+															</shipment>
+															<transportation_mode>truck</transportation_mode>
+															<trucking_leg>
+																<_object>/trucking/shipment_leg</_object>
+																<container_legs>
+																	<_object>/api/refs/collection</_object>
+																	<link>https://api.flexport.com/ocean/shipment_container_legs?f.leg.id=5984268
+																	</link>
+																	<ref_type>/ocean/shipment_container_leg</ref_type>
+																</container_legs>
+																<pieces null="true" />
+																<service_type>drayage</service_type>
+																<tracking_number null="true" />
+															</trucking_leg>
+														</leg>
+														<shipment_container>
+															<_object>/api/refs/object</_object>
+															<id>326755</id>
+															<link>https://api.flexport.com/ocean/shipment_containers/326755
+															</link>
+															<ref_type>/ocean/shipment_container</ref_type>
+														</shipment_container>
+													</element>
+												</data>
+												<next null="true" />
+												<prev null="true" />
+												<total_count>5</total_count>
+											</container_legs>
+											<container_number>MAGU5214674</container_number>
+											<container_size>fourty_ft_hc</container_size>
+											<container_type>dry</container_type>
+											<empty_returned_date>2020-02-10</empty_returned_date>
+											<estimated_arrival_date>2020-02-01T08:00:00.000-07:00
+											</estimated_arrival_date>
+											<estimated_available_for_pickup_date
+												null="true" />
+											<estimated_delivery_date>2020-02-07T12:00:00.000-07:00
+											</estimated_delivery_date>
+											<estimated_departure_date>2019-12-26T12:00:00.000+08:00
+											</estimated_departure_date>
+											<estimated_pickup_date>2019-12-22T12:00:00.000+08:00
+											</estimated_pickup_date>
+											<id>326755</id>
+											<items>
+												<element>
+													<_object>/shipment_item</_object>
+													<id>4363886</id>
+													<product>
+														<_object>/product</_object>
+														<archived_at null="true" />
+														<classifications>
+															<element>
+																<_object>/product/classification</_object>
+																<codes>
+																	<element>8418.30.00.00</element>
+																</codes>
+																<region>US</region>
+															</element>
+														</classifications>
+														<country_of_origin null="true" />
+														<hs_codes />
+														<id>3945266</id>
+														<name>MIDEA MRC07M5AWW 7.0CUFT CHEST FREEZER</name>
+														<product_category null="true" />
+														<product_properties />
+														<sku>1383611</sku>
+													</product>
+													<purchase_order_number>PR191108147276
+													</purchase_order_number>
+													<total_units>166.0</total_units>
+													<total_volume>
+														<_object>/quantity/volume</_object>
+														<unit>cbm</unit>
+														<value>72.68</value>
+													</total_volume>
+													<total_weight>
+														<_object>/quantity/weight</_object>
+														<unit>kg</unit>
+														<value>5818.3</value>
+													</total_weight>
+												</element>
+											</items>
+											<last_free_day_date>2020-02-03T07:00:00.000Z
+											</last_free_day_date>
+											<metadata />
+											<seal_number>T081687</seal_number>
+											<shipment>
+												<_object>/api/refs/object</_object>
+												<id>345678</id>
+												<link>https://api.flexport.com/shipments/345678</link>
+												<ref_type>/shipment</ref_type>
+											</shipment>
+										</element>
+									</data>
+									<next null="true" />
+									<prev null="true" />
+									<total_count>1</total_count>
+								</containers>
+								<house_bill_number>DLHTSHSE1923475</house_bill_number>
+								<is_lcl>false</is_lcl>
+								<master_bill_number>COSU6124992140</master_bill_number>
+							</ocean_shipment>
+							<picked_up_in_full_date>2019-12-21T12:00:00.000+08:00
+							</picked_up_in_full_date>
+							<pieces>0</pieces>
+							<priority>standard</priority>
+							<sellers />
+							<shippers>
+								<element>
+									<_object>/company_entity</_object>
+									<id>703476</id>
+									<mailing_address>
+										<_object>/address</_object>
+										<city>Hefei</city>
+										<country>China</country>
+										<country_code>CN</country_code>
+										<ref null="true" />
+										<state>Anhui</state>
+										<street_address>#176 JINXIU ROAD,HEFEI ECONOMY AND TECHNOLOGY
+											DEVELOPMENT AREA </street_address>
+										<street_address2 null="true" />
+										<timezone>Asia/Shanghai</timezone>
+										<unlocode null="true" />
+										<zip>230601</zip>
+									</mailing_address>
+									<name>Midea Hefei Refrigerator Co., Ltd</name>
+									<ref>id-703476</ref>
+									<vat_numbers />
+								</element>
+							</shippers>
+							<status>final_destination</status>
+							<transportation_mode>ocean</transportation_mode>
+							<updated_at>2020-02-11T04:12:00.020Z</updated_at>
+						</element>
+					</data>
+					<next null="true" />
+					<prev null="true" />
+					<total_count>1</total_count>
+				</shipments>
+				<status>outstanding</status>
+				<total>
+					<_object>/money</_object>
+					<amount>4495.85</amount>
+					<currency_code>USD</currency_code>
+				</total>
+				<type>Shipment</type>
+				<voided_at null="true" />
+			</element>
+		</data>
+		<next null="true" />
+		<prev null="true" />
+		<total_count>1</total_count>
+	</data>
+	<error null="true" />
+	<self>https://api.flexport.com/invoices?expand=shipments.booking.booking_line_items.purchase_order_line_item.purchase_order,shipments.ocean_shipment.containers.container_legs.leg,shipments.legs.shipment_leg.shipment_container_leg,shipments.legs.ocean_leg.container_legs.leg,shipments.legs.trucking_leg.container_legs.leg,shipments.legs.air_leg.container_legs.leg&amp;per=2&amp;page=1&amp;f.name=FLEX-345678-1
+	</self>
+	<version>2</version>
+</root>
+
